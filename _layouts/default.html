@@ -4,8 +4,8 @@
 <!--
   __  ____   _______ 
  |  \/  \ \ / / ____|
- | \  / |\ V / |     
- | |\/| | > <| |     
+ | \  / |\ V / |   
+ | |\/| | > <| |   
  | |  | |/ . \ |____ 
  |_|  |_/_/ \_\_____|
 
@@ -13,77 +13,75 @@ matthew x. curinga
 http://matt.curinga.com
 -->
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <meta name="date" content="">
+  <meta name="date" content="">
 
-    <meta name="author" content="mxc">
-    <title>{{ page.title }}</title>
+  <meta name="author" content="mxc">
+  <title>{{ page.title }}</title>
 
 
-    <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
 
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="/css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono|Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
-    <style type="text/css">
-    @media print
-    {
-        @page 
-        {       
-           @top-right
-            {
-                content: "Matthew X. Curinga – {{ page.title }}";
-           }
+  <link rel="stylesheet" href="/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono|Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+  @media print
+  {
+    @page 
+    {     
+       @top-right
+      {
+        content: "Matthew X. Curinga – {{ page.title }}";
        }
-    }
-    </style>
+     }
+  }
+  </style>
 
 </head>
 <body>
-    <header id="page-header">
+  <header id="page-header">
+    <nav id="top-nav" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <span class="navbar-brand mb-0 h1">matthew x. curinga</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <nav id="top-nav" class="navbar navbar-default navbar-fixed-top">
-            <div class="container ">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-nav" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" href="/">matthew x. curinga</a>
-                </div>
-                <div class="collapse navbar-collapse navbar-right" id="main-nav">
-                    <ul class="nav navbar-nav">
-                        <li id="index" class="nav-item"><a class="nav-link" href="index.html">about</a></li>
-                        <li id="cv" class="nav-item"><a class="nav-link" href="cv.html">cv</a></li>
-                        <li id="writing" class="nav-item"><a class="nav-link" href="writing.html">writing</a></li>
-                        <li id="software" class="nav-item"><a class="nav-link" href="software.html">software</a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    
-    </header>
-    <div id="main" class="container">
-        <section id="content">
-            {{ content }}
-        </section>
-    </div>
-    <footer class="container">
-
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/3.3.2/masonry.pkgd.min.js"></script>
+        <div class="collapse navbar-collapse navbar-right" id="main-nav">
+          <ul class="navbar-nav mr-auto">
+          {% assign nav_pages = site.pages | sort:"order" %}
+          {% for nav in nav_pages %}
+            <li id="{{nav.id}}" class="nav-item">
+              <!-- {{page.url}} :: {{nav.permalink}} -->
+            {% if page.url == nav.url %}
+              <a href="{{nav.url}}" class="nav-link active">{{nav.nav-title}} <span class="sr-only">(current)</span></a>
+            {% else %}
+              <a href="{{nav.url}}" class="nav-link">{{nav.nav-title}}</a>
+            {% endif %}
+            
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
+    </nav>
+  
+  </header>
+  <div id="main" class="container">
+    <section id="content">
+      {{ content }}
+    </section>
+  </div>
+ 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </body>
 </html>

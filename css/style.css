@@ -12,6 +12,20 @@ address
 }
 
 
+dt {
+    float: left;
+    width: 160px;
+    overflow: hidden;
+    clear: left;
+    text-align: right;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+dd {
+    margin-left: 180px;
+}
+
+
 #page-header nav
 {
     /*position: absolute;*/
@@ -62,8 +76,8 @@ h1, h2, h3, h4, h5, .lead
 
 dd
 {
-    margin: 0;
-    padding: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
 }
 
 #page-index p

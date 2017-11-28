@@ -4,6 +4,9 @@ excerpt: "The academic CV of Matthew X. Curinga, computer programmer, instructio
 sitemap: true
 layout: default
 permalink: /cv.html
+id: cv
+nav-title: CV
+order: 20
 ---
 
 
@@ -47,7 +50,6 @@ Spring 1993
 AY 1991-1992
 :    **[University College Cork](http://www.ucc.ie/)**, Cork City, Ireland
 :    _Year Abroad_
-{: .dl-horizontal}
 
 Academic positions
 ------------------
@@ -61,7 +63,6 @@ Academic positions
 2001, 2007-08
 :    [Teachers College Columbia University](http://www.tc.columbia.edu)
 :    Adjunct Instructor
-{: .dl-horizontal}
 
 <div class="ref" markdown="1">
 
@@ -188,7 +189,6 @@ Software works
 1997-1999
 :   **RunTime**—Web Content Management System
 :    _Software engineer_
-{: .dl-horizontal}
 
 Grants & Funded Research
 -------------------------------

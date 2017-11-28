@@ -4,12 +4,17 @@ excerpt: "Abstract and links to selections of academic writing."
 sitemap: true
 layout: default
 permalink: /writing.html
+id: writing
+nav-title: writing
+order: 40
 ---
 
 
 Selected Writing
 ================
-
+<div class="row" markdown="1">
+<div class="col-1"></div>
+<div class="col" markdown="1">
 ### The MOOC and the Multitude
 
 **Curinga, M.** (2016). [The MOOC and the Multitude](http://dx.doi.org/10.1111/edth.12171). _Educational Theory_, _66_(3), 369–387. <https://dx.doi.org/10.1111/edth.12171>
@@ -142,4 +147,5 @@ integrating that new media into existing lessons.
 
 **Keywords:** Wiki, Language education, Structured wiki, Collaborative
 authorship, Interactive media, Wikiotics, Ductus
-
+</div>
+</div>
