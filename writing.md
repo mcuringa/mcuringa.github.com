@@ -13,7 +13,7 @@ order: 40
 Selected Writing
 ================
 <div class="row" markdown="1">
-<div class="col-1"></div>
+<div class="col-lg-1"></div>
 <div class="col" markdown="1">
 ### The MOOC and the Multitude
 

@@ -6,44 +6,34 @@ address
     margin-bottom: .25em;
 }
 
-.container
+/*.container
 {
     max-width: 800px;
-}
+}*/
 
-
-dt {
-    float: left;
-    width: 160px;
-    overflow: hidden;
-    clear: left;
-    text-align: right;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
+dt { margin-top: .25em; }
 dd {
-    margin-left: 180px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  margin-left: 1em; 
 }
 
-
-#page-header nav
-{
-    /*position: absolute;*/
-    background-color: white;
-    /*right: 0;*/
+@media (min-width:768px) {
+  dt {
+      margin-top: 0;
+      float: left;
+      width: 160px;
+      overflow: hidden;
+      clear: left;
+      text-align: right;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+  }
+  dd {
+      margin-left: 180px;
+  }
 }
 
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover
-{
-    background-color: transparent;
-    text-decoration: underline;
-    color: black;
-}
-
-a.navbar-brand
-{
-    color: black;
-}
 
 h1 { font-size: 160%;}
 h2 { font-size: 130%; text-transform: uppercase; margin-top: 2em;}
@@ -73,20 +63,6 @@ h1, h2, h3, h4, h5, .lead
     text-align: justify;
 }
 
-
-dd
-{
-    margin-bottom: 0;
-    padding-bottom: 0;
-}
-
-#page-index p
-{
-    /*font-size: 120%;*/
-    padding: 0;
-    margin: 0;
-}
-
 .ref p, p.ref
 {
     margin-bottom: 1em;
@@ -99,6 +75,7 @@ dd
 
 div.break { display: none; }
 
+/* ---------------------  courses table ---------------- */
 #courses-taught th
 {
     border-bottom: 1px solid black;
@@ -119,6 +96,40 @@ div.break { display: none; }
 }
 
 
+/* --------------------- portfolio ---------------- */
+
+.port-thumb a
+{
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+}
+
+.port-thumb img
+{
+   visibility: visible;
+   transition: visibility .5s, opacity .5s ease-out;
+   opacity: 1;
+}
+.port-thumb:hover img
+{
+  opacity: 0;
+  visibility: hidden;
+}
+.port-title
+{
+  position: absolute;
+  color: white;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 1em;
+  visibility: hidden;
+}
+.port-thumb:hover .port-title
+{
+  visibility: visible;
+}
 
 @media print
 {

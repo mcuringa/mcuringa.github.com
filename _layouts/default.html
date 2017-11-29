@@ -48,7 +48,7 @@ http://matt.curinga.com
 </head>
 <body>
   <header id="page-header">
-    <nav id="top-nav" class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+    <nav id="top-nav" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <span class="navbar-brand mb-0 h1">matthew x. curinga</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -59,7 +59,6 @@ http://matt.curinga.com
           {% assign nav_pages = site.pages | sort:"order" %}
           {% for nav in nav_pages %}
             <li id="{{nav.id}}" class="nav-item">
-              <!-- {{page.url}} :: {{nav.permalink}} -->
             {% if page.url == nav.url %}
               <a href="{{nav.url}}" class="nav-link active">{{nav.nav-title}} <span class="sr-only">(current)</span></a>
             {% else %}
@@ -74,8 +73,10 @@ http://matt.curinga.com
   
   </header>
   <div id="main" class="container">
-    <section id="content">
-      {{ content }}
+    <section id="content" class="">
+      <div class="">
+        {{ content }}
+      </div>
     </section>
   </div>
  
