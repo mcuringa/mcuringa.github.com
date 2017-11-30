@@ -30,10 +30,19 @@ order: 30
 
 </div> <!-- end col 1 -->
 
-<div class="col-md-9 col-sm-12" markdown="1">
+<div id="portfolio-details" class="col-md-9 col-sm-12" markdown="1">
 
-**PyTutor** is `social tutoring software` to help you learn the basics 
-of programming in Python. We believe in community-supported learning and collaboration when learning to code. Solve programming challenges from our web-based interactive editor.
+{% for work in works %}
+{% if forloop.index == 1 %}
+<div id="work-{{forloop.index}}" class="row port-details active">
+{% else %}
+<div class="port-details">
+
+{% endif %}
+
+ {{work.content}}
+</div>
+{% endfor %}
 
 
 </div>

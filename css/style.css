@@ -97,6 +97,39 @@ div.break { display: none; }
 
 
 /* --------------------- portfolio ---------------- */
+.modal-lg {
+    max-width: 1024px;
+}
+#portfolio-details
+{
+  max-height: 100%;
+  overflow: scroll-vertical;
+}
+.port-details
+{
+  position: absolute;
+  opacity: 0;
+}
+@media (min-width:768px) {
+  .port-details dt {
+      width: 60px;
+  }
+  dd {
+      margin-left: 80px;
+  }
+}
+
+
+.port-details
+{
+  position: absolute;
+  opacity: 0;
+}
+
+.port-details.active
+{
+  opacity: 1;
+}
 
 .port-thumb a
 {
