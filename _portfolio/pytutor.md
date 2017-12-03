@@ -23,13 +23,13 @@ tags:
 
 **Role:** lead developer &amp; instructional designer, PI
 
-**Tags:** {% for tag in page.tags %}<code class="tag">#{{tag}}</code> {% endfor %}
   </div>
   <div class="col-md-7" markdown="0">
     <img src="/img/portfolio/pytutor/study.png" class="img-fluid" alt="PyTutor study problem screen">
   </div>
 </div>
-
+<br>
+**Tags:** {% for tag in page.tags %}<code class="tag">#{{tag}}</code> {% endfor %}
 <div class="row">
 
 {% capture desc %}
@@ -66,22 +66,4 @@ wrong.
   content=desc %}
 
 </div>
-
-{% include modal.html 
-  title="question editor"
-  id="pytutor1" img="/img/portfolio/pytutor/wiki.png" 
-  alt="wiki question editor" %}
-
-{% include modal.html 
-  title="peer solutions"
-  id="pytutor2" 
-  img="/img/portfolio/pytutor/code.png" 
-  alt="wiki question editor" %}
-
-{% include modal.html 
-  title="social profile"
-  id="pytutor3" 
-  img="/img/portfolio/pytutor/add-friend.png" 
-  alt="social profile" %}
-
 

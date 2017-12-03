@@ -97,6 +97,11 @@ div.break { display: none; }
 
 
 /* --------------------- portfolio ---------------- */
+blockquote
+{
+  font-size: 1.4rem;
+}
+
 .modal-lg {
     max-width: 960px;
 }
@@ -105,11 +110,8 @@ div.break { display: none; }
   max-height: 100%;
   overflow: scroll-vertical;
 }
-.port-details
-{
-  position: absolute;
-  opacity: 0;
-}
+
+
 @media (min-width:768px) {
   .port-details dt {
       width: 60px;
@@ -119,16 +121,17 @@ div.break { display: none; }
   }
 }
 
-
 .port-details
 {
   position: absolute;
   opacity: 0;
+  z-index: 5;
 }
 
 .port-details.active
 {
   opacity: 1;
+  z-index: 100;
 }
 
 .port-thumb a

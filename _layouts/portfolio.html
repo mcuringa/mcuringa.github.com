@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--
+  __  ____   _______ 
+ |  \/  \ \ / / ____|
+ | \  / |\ V / |   
+ | |\/| | > <| |   
+ | |  | |/ . \ |____ 
+ |_|  |_/_/ \_\_____|
+
+matthew x. curinga
+http://matt.curinga.com
+-->
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <meta name="date" content="">
+
+  <meta name="author" content="mxc">
+  <title>{{ page.title }}</title>
+
+
+  <link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="/css/style.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu+Mono|Source+Sans+Pro:400,700' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+  @media print
+  {
+    @page 
+    {     
+       @top-right
+      {
+        content: "Matthew X. Curinga – {{ page.title }}";
+       }
+     }
+  }
+  </style>
+
+</head>
+<body>
+  <header id="page-header">
+    <nav id="top-nav" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">matthew x. curinga</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse navbar-right" id="main-nav">
+          <ul class="navbar-nav mr-auto">
+          {% assign nav_pages = site.pages | sort:"order" %}
+          {% for nav in nav_pages %}
+            <li id="{{nav.id}}" class="nav-item">
+            {% if page.url == nav.url %}
+              <a href="{{nav.url}}" class="nav-link active">{{nav.nav-title}} <span class="sr-only">(current)</span></a>
+            {% else %}
+              <a href="{{nav.url}}" class="nav-link">{{nav.nav-title}}</a>
+            {% endif %}
+            
+            </li>
+          {% endfor %}
+          </ul>
+        </div>
+    </nav>
+  
+  </header>
+  <div id="main" class="container">
+    <section id="content" class="">
+      <div class="">
+        {{ content }}
+      </div>
+    </section>
+  </div>
+ 
+{% include modal.html 
+  title="question editor"
+  id="pytutor1" img="/img/portfolio/pytutor/wiki.png" 
+  alt="wiki question editor" %}
+
+{% include modal.html 
+  title="peer solutions"
+  id="pytutor2" 
+  img="/img/portfolio/pytutor/code.png" 
+  alt="wiki question editor" %}
+
+{% include modal.html 
+  title="social profile"
+  id="pytutor3" 
+  img="/img/portfolio/pytutor/add-friend.png" 
+  alt="social profile" %}
+ 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+</body>
+</html>

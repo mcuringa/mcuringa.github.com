@@ -2,7 +2,7 @@
 title: "Selected Software Projects::Matthew X. Curinga"
 excerpt: "Portfolio of selected software and instructional design projects."
 sitemap: true
-layout: default
+layout: portfolio
 permalink: /software.html
 id: software
 nav-title: portfolio
@@ -42,6 +42,14 @@ order: 30
 </div>
 
 <script>
+let workMap = {
+  "": 1,
+
+{% for work in works %}
+"#{{work.title}}": {{forloop.index}},
+{% endfor %}
+};
+
 function activate(index) 
 {
 	$(".port-details").removeClass("active");
@@ -49,4 +57,11 @@ function activate(index)
 	$(".port-thumb").removeClass("active");
 	$("#thumb-" + index).addClass("active");
 }
+
+window.onload = ()=> {
+    let work = window.location.hash;
+    console.log(work);
+    console.log(workMap[work]);
+    activate(workMap[work]);
+};
 </script>
