@@ -158,6 +158,9 @@ div.break { display: none; }
   text-align: center;
   padding-top: 1em;
   visibility: hidden;
+  left: 0;
+  right: 0;
+  font-size: .9rem;
 }
 .port-thumb:hover .port-title
 {

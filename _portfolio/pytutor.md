@@ -23,7 +23,7 @@ tags:
 
 **Role:** lead developer &amp; instructional designer, PI
 
-**Tags:** {% for tag in page.tags %}<span class="tag type-code">#{{tag}}</span> {% endfor %}
+**Tags:** {% for tag in page.tags %}<code class="tag">#{{tag}}</code> {% endfor %}
   </div>
   <div class="col-md-7" markdown="0">
     <img src="/img/portfolio/pytutor/study.png" class="img-fluid" alt="PyTutor study problem screen">

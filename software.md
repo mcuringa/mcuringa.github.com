@@ -16,9 +16,10 @@ order: 30
 			<div class="row bg-dark no-gutters">
 				{% assign works = site.portfolio | sort:"work-number" %}
 				{% for work in works %}
-					<div class="col-md-2 port-thumb">
+					<div id="thumb-{{forloop.index}}" class="col-md-6 port-thumb">
 						<a href="#{{work.title}}" onclick="activate({{forloop.index}})">
-							<img src="{{work.img}}" alt="{{work.title}}" class="img-fluid">
+							<div class="port-title text-center">{{work.title}}</div>
+              <img src="{{work.img}}" alt="{{work.title}}" class="img-fluid">
 						</a>
 					</div>
 				{% endfor %}
@@ -31,7 +32,7 @@ order: 30
 			{% if forloop.index == 1 %}
 				<div id="work-{{forloop.index}}" class="port-details active">
 			{% else %}
-				<div class="port-details">
+				<div id="work-{{forloop.index}}" class="port-details">
 			{% endif %}
 
 				{{work.content}}
@@ -45,5 +46,7 @@ function activate(index)
 {
 	$(".port-details").removeClass("active");
 	$("#work-" + index).addClass("active");
+	$(".port-thumb").removeClass("active");
+	$("#thumb-" + index).addClass("active");
 }
 </script>
