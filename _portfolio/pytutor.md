@@ -8,18 +8,18 @@ work-number: "0"
 
 tags:
 - InstructionalDesign
-- Python, 
-- Backbone, 
-- Bootstrap,
-- Javascript, 
-- ComputationalThinking, 
-- p2p, 
+- Python
+- Backbone
+- Bootstrap
+- Javascript
+- ComputationalThinking
+- p2p
 - PeerLearning
 
 ---
 <div class="row">
   <div class="col-md-5" markdown="1">
-**PyTutor** is _social tutoring software_ developed as a research experiment for teaching computer programming to novices. It uses commmunity supported learning to present programming challenges in an interactive, online editor.
+[**PyTutor**](https://github.com/mcuringa/py-tutor) is _social tutoring software_ developed as a research experiment for teaching computer programming to novices. It uses commmunity supported learning to present programming challenges in an interactive, online editor.
 
 **Role:** lead developer &amp; instructional designer, PI
 

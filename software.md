@@ -29,12 +29,7 @@ order: 30
 
 	<div id="portfolio-details" class="col-md-9" markdown="0">
 		{% for work in works %}
-			{% if forloop.index == 1 %}
-				<div id="work-{{forloop.index}}" class="port-details active">
-			{% else %}
 				<div id="work-{{forloop.index}}" class="port-details">
-			{% endif %}
-
 				{{work.content}}
 			</div>
 		{% endfor %}

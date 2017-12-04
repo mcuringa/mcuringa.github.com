@@ -126,6 +126,8 @@ blockquote
   position: absolute;
   opacity: 0;
   z-index: 5;
+  transition: visibility .5s, opacity .5s ease-out;
+
 }
 
 .port-details.active
@@ -153,6 +155,12 @@ blockquote
   opacity: 0;
   visibility: hidden;
 }
+
+.port-thumb.active img
+{
+  opacity: .4;
+}
+
 .port-title
 {
   position: absolute;
@@ -165,9 +173,10 @@ blockquote
   right: 0;
   font-size: .9rem;
 }
-.port-thumb:hover .port-title
+.port-thumb:hover .port-title, .port-thumb.active .port-title
 {
   visibility: visible;
+  z-index: 10;
 }
 
 @media print

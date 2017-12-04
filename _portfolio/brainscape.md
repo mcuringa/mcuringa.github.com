@@ -21,11 +21,11 @@ tags:
 
 **Tags:** {% for tag in page.tags %}<code class="tag">{{tag}}</code> {% endfor %}
 
-<img src="/img/portfolio/brainscape/cards.png" class="img-fluid" alt="PyTutor study problem screen">
+<img src="/img/portfolio/brainscape/cards.png" class="img-fluid" alt="icons of brainscape topics">
 
   </div>
   <div class="col-md-7" markdown="0">
-    <img src="/img/portfolio/brainscape/chem.png" class="img-fluid" alt="PyTutor study problem screen">
+    <img src="/img/portfolio/brainscape/chem.png" class="img-fluid" alt="Brainscape flashcard software">
   </div>
 
 </div>
