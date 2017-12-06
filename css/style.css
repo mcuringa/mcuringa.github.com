@@ -26,6 +26,12 @@ dd {
   margin-left: 1em; 
 }
 
+code
+{
+  margin-top: .5em;
+  display: inline-block;
+}
+
 @media (min-width:768px) {
   dt {
       margin-top: 0;
