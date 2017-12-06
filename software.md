@@ -11,12 +11,12 @@ order: 30
 
 <div class="row" markdown="0">
 	<!-- <div class="col-md-3 d-md-block d-sm-none"> -->
-	<div class="col-md-3">
+	<div class="col-md-3 col-12">
 		<div class="container-fluid">
 			<div class="row bg-dark no-gutters">
 				{% assign works = site.portfolio | sort:"work-number" %}
 				{% for work in works %}
-					<div id="thumb-{{forloop.index}}" class="col-md-6 port-thumb">
+					<div id="thumb-{{forloop.index}}" class="col-md-6 col-2 port-thumb">
 						<a href="#{{work.title}}" onclick="activate({{forloop.index}})">
 							<div class="port-title text-center">{{work.title}}</div>
               <img src="{{work.img}}" alt="{{work.title}}" class="img-fluid">
