@@ -17,7 +17,7 @@ tags:
 <div class="row">
   <div class="col-md-5" markdown="1">
 [**CTELL**](http://ctell.uconn.edu/home.htm) is web-based software for teacher literacy education
-that integrates **case-based learning** and multimedia **anhcored instruction.** I was the lead software engineer for version 2 of the software, porting it from a desktop application to a cloud-based web application.  I also designed version 2 to be a full-fledged case learning authoring tool that worked independently of the initial literacy education domain.
+that integrates **case-based learning** and multimedia **anchored instruction.** I was the lead software engineer for version 2 of the software, porting it from a desktop application to a cloud-based web application.  I also designed version 2 to be a full-fledged case learning authoring tool that worked independently of the initial literacy education domain.
 
 **Role:** lead software engineer
 
