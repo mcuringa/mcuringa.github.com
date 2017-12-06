@@ -10,22 +10,16 @@ order: 20
 ---
 
 
-<header id="cv-header" class="text-sm-right">
+<header id="cv-header" class="text-right" markdown="0">
 <p class="text-right">
 <strong>Matthew X. Curinga</strong><br>
 </p>
-<div class="text-right">
-  <a href="mailto:mcuringa@adelphi.edu">mcuringa@adelphi.edu</a><br>
-  <a href="https://matt.curinga.com" title="go to the personal website of matt curinga">https://matt.curinga.com</a><br>
-  <a href="https://www.auedtech.org" title="go to the adelphi ed tech program website">https://www.auedtech.org</a><br>
-  <span class="visible-print-block">
-    <a href="https://github.com/mcuringa" title="github repos">https://github.com/mcuringa</a><br>
-    <a href="https://twitter.com/mxc" title="infrequent tweets">https://twitter.com/mxc</a>
-  </span>
-  <span class="hidden-print">
-    <a href="https://github.com/mcuringa" title="github repos"><img src="img/github.png" alt="github logo"></a>
-    <a href="https://twitter.com/mxc" title="infrequent tweets"><img src="img/twitter.png" alt="twitter logo"></a>
-  </span>
+<div class="contact text-right text-muted">
+  <a href="mailto:mcuringa@adelphi.edu" class="text-muted">mcuringa@adelphi.edu</a><br>
+  <a href="https://matt.curinga.com" title="go to the personal website of matt curinga" class="text-muted">https://matt.curinga.com</a><br>
+  <a href="https://www.auedtech.org" title="go to the adelphi ed tech program website" class="text-muted">https://www.auedtech.org</a><br>
+    <a href="https://github.com/mcuringa" title="github repos" class="text-muted">https://github.com/mcuringa</a><br>
+    <a href="https://twitter.com/mxc" title="infrequent tweets" class="text-muted">https://twitter.com/mxc</a>
 </div>
 <h1>Curriculum Vitae</h1>
 </header>
@@ -33,36 +27,49 @@ order: 20
 Education
 ---------
 
-Summer 2010
-:    **[Teachers College Columbia University](http://www.tc.columbia.edu)**, New York, NY
-:    **EdD** Instructional Technology & Media
-:    Dissertation:  [Social software and the struggle for freedom](http://matt.curinga.com/dissertation)
-:    Sponsor: Robbie McClintock    
+{% for school in site.data.education %}
+<div class="row" markdown="0">
+<div class="col-md-2 text-right">
 
-Spring 1999
-:    Teachers College Columbia University, New York, NY
-:    **MA** Computing and Education    
+<strong>{{school.date}}</strong>
+<div class="text-muted">{{school.place}}</div>
+</div>
+<div class="col-md-10" markdown="1">
+<strong markdown="1">[{{school.school}}]({{school.link}})</strong><br>
+<strong>{{school.degree}}</strong><br>{{school.note}}
+</div>
+</div>
+{% endfor %}
 
-Spring 1993
-:    **[Colby College](http://www.colby.edu/)**, Waterville, ME
-:    **BA** English Literature
 
-AY 1991-1992
-:    **[University College Cork](http://www.ucc.ie/)**, Cork City, Ireland
-:    _Year Abroad_
 
 Academic positions
 ------------------
-2010-present
-:    [Adelphi University](http://education.adelphi.edu/)
-:    Program in Educational Technology, RSA School of Education
-:    Associate Professor, 2016-present
-:    Program Director, 2011-2014, 2016-present
-:    Assistant Professor, 2010-2016
+<div class="row" markdown="0">
+  <div class="col-md-2 text-right">
+    <strong>2010-present</strong>
+    <div class="text-muted">New York</div>
+  </div>
+<div class="col-md-10" markdown="1">
+**[Adelphi University](http://education.adelphi.edu/)**  
+Program in Educational Technology, RSA School of Education  
+Associate Professor, 2016-present  
+Program Director, 2011-2014, 2016-present  
+Assistant Professor, 2010-2016  
+</div>
+</div>
 
-2001, 2007-08
-:    [Teachers College Columbia University](http://www.tc.columbia.edu)
-:    Adjunct Instructor
+<div class="row" markdown="0">
+  <div class="col-md-2 text-right">
+    <strong>2001, 2007-08</strong>
+    <div class="text-muted">New York, NY</div>
+  </div>
+<div class="col-md-10" markdown="1">
+**[Teachers College Columbia University](http://www.tc.columbia.edu)**  
+Adjunct Instructor
+</div>
+</div>
+
 
 <div class="ref" markdown="1">
 
@@ -164,60 +171,38 @@ White papers, working papers, technical reports, etc
 
 Software works
 --------------
-2014-present
-:   [PyTutor](http://www.pytutor.org)—a social tutoring/peer-learning approach to online computer science education.
-:   _Lead developer/architect._ <http://www.pytutor.org>
 
-2010-2014
-:    [Wikiotics](http://wikiotics.org), Free/Open language learning wiki.
-:    _Instructional design, curriculum development, software architecture._ <http://wikiotics.org>
+{% for work in site.data.software %}
+<div class="row" markdown="0">
+  <div class="col-md-2 text-right">
 
-2009-2010
-:   [Brainscape](http://www.brainscape.com)—Mobile & Web Study Platform
-:    _Lead developer_
+    <strong>{{work.date}}</strong>
+  </div>
+  <div class="col-md-10">
+    <strong markdown="1">[{{work.title}}]({{work.link}})</strong>—{{work.note}}
+    <p><em>{{work.role}}</em></p>
+  </div>
+</div>
+{% endfor %}
 
-2002-2008
-:   [RewardTV](http://www.rewardtv.com)—Gamified Media/Market Research Platform
-:    _Lead Programmer_
-:    **Research Survey System**—Survey Authoring and Data-Analytics Collection Tool
-:    _Principal architect_
 
-1999-2002
-:   [mLogic](http://matt.curinga.com/crisp "more about crisp wireless")—Crisp Wireless' mobile media authoring platform
-:    _Co-founder, Chief Technical Officer_
-
-1997-1999
-:   **RunTime**—Web Content Management System
-:    _Software engineer_
 
 Grants & Funded Research
 -------------------------------
 
-2015
-  : **Computational number sense in middle school mathematics: Creative approaches to algorithmic problem solving**
-  : _$835,008_, unfunded, National Science Foundation
-  : co-PIs, Elizabeth de Freitas, Lee Stemkoski, **Matthew X. Curinga**, Dominic Klyve, Rebecca Rufo-Tepper
-
-2015
-  : **Algorithms, accountability and the ethics of education research: Interrogating digital research methods**
-  : _$34,800_, unfunded, AERA Educational Research Conference Proposal
-  : chair, Elizabeth de Freitas
-  : co-PIs, **Matthew X. Curinga**, Stephanie Daza, Ezekiel Dixon-Román, & Patti Lather
-
-2013
-  : **Mobile Cases for Peer-to-peer learning**
-  : _$1,500,000_, unfunded Institute for Educational Studies proposal
-
-2011-2012
-  : **Robotics for Programming**
-  : _$1,380_, granted Feb. 21, 2011
-  : Principal Investigator, Adelphi University Instructional Technology Grant
-
-2011
-  : **Wikiotics Design Research**
-  : _$3,440_, granted Feb. 2, 2011
-  : Principal Investigator, Adelphi University Faculty Development Grant
-{: .dl-horizontal}
+{% for work in site.data.grants %}
+<div class="row" markdown="0">
+<div class="col-md-2 text-right">
+<strong>{{work.date}}</strong>
+<div class="text-muted">{{work.amount}}<p>{{work.funded}}</p></div>
+</div>
+<div class="col-md-10" markdown="1">
+<strong>{{work.title}}</strong>  
+_{{work.inst}}_  
+{{work.researchers}}
+</div>
+</div>
+{% endfor %}
 
 Courses Taught
 --------------
@@ -250,120 +235,89 @@ Courses Taught
 
 Integrative Masters Projects (directed)
 ---------------------------------------
-Spring 2016
-: C. Correa & J. Trask, "Investigation of video conferencing software to support synchronous online learning"
-
-Fall 2015
-:    A. Lynch, "Spanish multimedia language learning and peer exchanges"
-
-Summer 2015
-:    K. Hart, "HCI and user experience in scholarly search systems"
-:    L. Dumitrescu, "Universal Design for Learning in Massive Open Online Courses"
-:    J. Diaz, "A MOOC for high school history"
-
-Summer 2014
-:    S. Bogdanov, "MobiLit: an information literacy mobile game for learning"
-:    T. Jennings, "Linking physical and virtual learning environments"
-
-Spring 2014
-:    A. Fleurimond, "Computer programming for educators: a proposition for the inclusion of computational thinking in teacher preparation programs and professional development"
-{: .dl-horizontal}
-
+{% for work in site.data.theses %}
+<div class="row" markdown="0">
+  <div class="col-md-2 text-right"><strong>{{work.date}}</strong></div>
+  <div class="col-md-10"><p>{{work.authors}}, "{{work.title}}"</p></div>
+</div>
+{% endfor %}
 
 Undergraduate Honors Theses (reader)
 ---------------------------------------
-Spring 2014
-:    "The millennial epistemology: Viralism"
+<div class="row" markdown="0">
+  <div class="col-md-2 text-right"><strong>Spring 2014</strong></div>
+  <div class="col-md-10"><p>"The millennial epistemology: Viralism"</p></div>
+</div>
+<div class="row" markdown="0">
+  <div class="col-md-2 text-right"><strong>Spring 2013</strong></div>
+  <div class="col-md-10"><p>"How video games change the brain and influence behavior"</p></div>
+</div>
 
-Spring 2013
-:    "How video games change the brain and influence behavior"
-{: .dl-horizontal}
 
 Work Experience
 ---------------
 ### Professional software development
-2009-2010
-:    [Brainscape](http://www.brainscape.com), New York, NY
-:    Lead Software Developer
 
-2002-2008
-:    [Nielsen IAG](http://www.nielsen.com), New York, NY
-:    Lead Programmer, Web Applications
-
-1999-2002
-:    [Crisp Wireless](http://www.crispwireless.com), New York, NY
-:    Co-founder, Chief Technical Officer
-
-1997-1999
-:    Sohonet (now RunTime Technologies), New York, NY
-:    Programmer
-{: .dl-horizontal}
+{% for work in site.data.work %}
+<div class="row" markdown="0">
+<div class="col-md-2 text-right">
+<strong>{{work.date}}</strong>
+<div class="text-muted">{{work.place}}</div>
+</div>
+<div class="col-md-10" markdown="1">
+<strong>{{work.title}}</strong>  
+{{work.job}}  
+</div>
+</div>
+{% endfor %}
 
 ### K-12 Education
-1996-1997
-:    [Computer Curriculum Corporation](http://www.pearsonschool.com) (now Pearson Education), New York, NY
-:    Educational Technology Consultant, Public School District 32, Brooklyn
-
-Fall 1996
-:    Alternative Education Center, Guatemala City, Guatemala
-:    ESL Teacher (grades 9-12)
-
-1993-1996
-:    [Teach For America](http://matt.curinga.com/tfa "more about work at teach for america"), Los Angeles, Houston, Arkansas
-:    Corps Member, Curriculum Consultant and Instructor for Summer Institute
-
-1993-1995
-:    Grady Public Schools, Grady, AR
-:    Bilingual/ESL Teacher (P-12), District Migrant Education Coordinator
-{: .dl-horizontal}
+{% for work in site.data.teaching %}
+<div class="row" markdown="0">
+<div class="col-md-2 text-right">
+<strong>{{work.date}}</strong>
+<p class="text-muted">{{work.place}}</p>
+</div>
+<div class="col-md-10" markdown="1">
+<strong>{{work.title}}</strong>  
+{{work.job}}  
+</div>
+</div>
+{% endfor %}
 
 Professional service & Volunteer Work
 -------------------------------------
-2016-present
-:    [Zero Day Camp (non-profit organization)](https://zeroday.camp)
-:    co-founder, Board of Directors
+{% for work in site.data.service %}
+<div class="row" markdown="0">
+<div class="col-md-2 text-right">
+<strong>{{work.date}}</strong>
+<p class="text-muted">{{work.place}}</p>
+</div>
+<div class="col-md-10" markdown="1">
+<strong>{{work.title}}</strong>  
+{{work.job}}  
+</div>
+</div>
+{% endfor %}
 
-2012-present
-:    [Wikiotics Foundation (non-profit organization)](http://wikiotics.org), Board of Directors (member)
 
-2007-present
-:    [Teunis G. Bergen Public School 9](http://www.ps9brooklyn.org), Brooklyn, NY
-:    Bilingual Education & Technology Advisor
-
-2013-2015
-:    [JCEPS: Journal for Critical Education Policy Studies](http://www.jceps.com/), Advisory Board (member)
-
-2010-2015
-:    [Brainscape](http://www.brainscape.com)
-:    Advisory Board (member)
-
-2011-2013
-:    [Edu4](http://www.education4.org), Technology Working Group (facilitator)
-
-2008-2010
-:    [spaces e-journal of arts and humanities](http://www.tc.edu/spaces/), Teachers College, New York, NY
-:    Editorial Board
-
-2004-2005
-:    **ContentBank**, The Children's Partnership, New York, NY
-:    Technology Advisor
-
-1998-2000
-:    **Playing2Win Community Technology Center**, Harlem, NY
-:    Volunteer Teacher: Computer Programming and New Media Production
-
-1993-1995
-:    **First Baptist Church**, Grady, AR
-:    Volunteer Adult ESL Instructor
-{: .dl-horizontal}
 
 Skills
 -----------------------------------------
-computer
-:    Python, Javascript, Java, Android, SQL, PHP, LISP, C++
+<div class="row" markdown="0">
+<div class="col-md-2 text-right">
+<strong>computer</strong>
+</div>
+<div class="col-md-10" markdown="1">
+Python, Javascript, Java, Android, SQL, PHP, LISP, C++
+</div>
+</div>
 
-languages
-:    English, Spanish, intermediate Italian
-{: .dl-horizontal}
-
-
+<div class="row" markdown="0">
+<div class="col-md-2 text-right">
+<strong>languages</strong>
+</div>
+<div class="col-md-10" markdown="1">
+English, Spanish, intermediate Italian
+</div>
+</div>

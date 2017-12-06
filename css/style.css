@@ -5,11 +5,19 @@ address
 {
     margin-bottom: .25em;
 }
-
-/*.container
+.contact
 {
-    max-width: 800px;
-}*/
+  font-size: .8rem;
+}
+
+.container
+{
+    max-width: 900px;
+}
+.portfolio .container
+{
+    max-width: 1200px;
+}
 
 dt { margin-top: .25em; }
 dd {

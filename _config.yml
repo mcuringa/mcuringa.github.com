@@ -33,7 +33,6 @@ collections:
     output: true
     permalink: /:collection/:name
 
-
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
