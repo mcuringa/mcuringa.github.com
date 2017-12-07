@@ -28,8 +28,9 @@ order: 30
 	</div> <!-- end col 1 -->
 
 	<div id="portfolio-details" class="col-md-9" markdown="0">
+		<div class="spinner text-muted"><img src="/img/spinner.gif">Loading...</div>
 		{% for work in works %}
-				<div id="work-{{forloop.index}}" class="port-details">
+			<div id="work-{{forloop.index}}" class="port-details">
 				{{work.content}}
 			</div>
 		{% endfor %}
@@ -55,8 +56,7 @@ function activate(index)
 
 window.onload = ()=> {
     let work = window.location.hash;
-    console.log(work);
-    console.log(workMap[work]);
+    $(".spinner").hide()
     activate(workMap[work]);
 };
 </script>

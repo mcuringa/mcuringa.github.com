@@ -19,6 +19,13 @@ address
     max-width: 1200px;
 }
 
+.spinner
+{
+  text-align: center;
+  line-height: 6em;
+  padding-top: 2em;
+}
+
 dt { margin-top: .25em; }
 dd {
   margin-bottom: 0;
