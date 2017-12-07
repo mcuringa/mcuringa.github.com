@@ -16,7 +16,7 @@
 title: Matthew X. Curinga
 email: matt@curinga.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Matthew X. Curinga persoanl and portfolio site.
+  Matthew X. Curinga academic/professional portfolio site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://matt.curinga.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: mxc
