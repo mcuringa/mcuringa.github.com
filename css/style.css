@@ -202,6 +202,10 @@ blockquote
 
 @media print
 {
+  .container {
+    width: auto;
+  }
+
     @charset "UTF-8";
 
     * { color: black !important; }
@@ -216,13 +220,12 @@ blockquote
         font-size: 14px;
         counter-reset: page 1;
     }
-    dt { font-weight: normal; font-style: italic; }
-    dd { padding-left: 2em;}
+
 
     @page 
     {
         size: 8.5in 11in;
-        margin: 1in;
+        /*margin: 1in;*/
         orphans: 3;
         widows: 3;
         
