@@ -29,12 +29,12 @@ Education
 
 {% for school in site.data.education %}
 <div class="row" markdown="0">
-<div class="col-md-2 text-right">
+<div class="col-3 text-right">
 
 <strong>{{school.date}}</strong>
 <div class="text-muted">{{school.place}}</div>
 </div>
-<div class="col-md-10" markdown="1">
+<div class="col" markdown="1">
 <strong markdown="1">[{{school.school}}]({{school.link}})</strong><br>
 <strong>{{school.degree}}</strong><br>{{school.note}}
 </div>
@@ -46,11 +46,11 @@ Education
 Academic positions
 ------------------
 <div class="row" markdown="0">
-  <div class="col-md-2 text-right">
+  <div class="col-3 text-right">
     <strong>2010-present</strong>
     <div class="text-muted">New York</div>
   </div>
-<div class="col-md-10" markdown="1">
+<div class="col" markdown="1">
 **[Adelphi University](http://education.adelphi.edu/)**  
 Program in Educational Technology, RSA School of Education  
 Associate Professor, 2016-present  
@@ -60,11 +60,11 @@ Assistant Professor, 2010-2016
 </div>
 
 <div class="row" markdown="0">
-  <div class="col-md-2 text-right">
+  <div class="col-3 text-right">
     <strong>2001, 2007-08</strong>
     <div class="text-muted">New York, NY</div>
   </div>
-<div class="col-md-10" markdown="1">
+<div class="col" markdown="1">
 **[Teachers College Columbia University](http://www.tc.columbia.edu)**  
 Adjunct Instructor
 </div>
@@ -174,11 +174,11 @@ Software works
 
 {% for work in site.data.software %}
 <div class="row" markdown="0">
-  <div class="col-md-2 text-right">
+  <div class="col-3 text-right">
 
     <strong>{{work.date}}</strong>
   </div>
-  <div class="col-md-10">
+  <div class="col">
     <strong markdown="1">[{{work.title}}]({{work.link}})</strong>—{{work.note}}
     <p><em>{{work.role}}</em></p>
   </div>
@@ -192,11 +192,11 @@ Grants & Funded Research
 
 {% for work in site.data.grants %}
 <div class="row" markdown="0">
-<div class="col-md-2 text-right">
+<div class="col-3 text-right">
 <strong>{{work.date}}</strong>
 <div class="text-muted">{{work.amount}}<p>{{work.funded}}</p></div>
 </div>
-<div class="col-md-10" markdown="1">
+<div class="col" markdown="1">
 <strong>{{work.title}}</strong>  
 _{{work.inst}}_  
 {{work.researchers}}
@@ -237,20 +237,20 @@ Integrative Masters Projects (directed)
 ---------------------------------------
 {% for work in site.data.theses %}
 <div class="row" markdown="0">
-  <div class="col-md-2 text-right"><strong>{{work.date}}</strong></div>
-  <div class="col-md-10"><p>{{work.authors}}, "{{work.title}}"</p></div>
+  <div class="col-3 text-right"><strong>{{work.date}}</strong></div>
+  <div class="col"><p>{{work.authors}}, "{{work.title}}"</p></div>
 </div>
 {% endfor %}
 
 Undergraduate Honors Theses (reader)
 ---------------------------------------
 <div class="row" markdown="0">
-  <div class="col-md-2 text-right"><strong>Spring 2014</strong></div>
-  <div class="col-md-10"><p>"The millennial epistemology: Viralism"</p></div>
+  <div class="col-3 text-right"><strong>Spring 2014</strong></div>
+  <div class="col"><p>"The millennial epistemology: Viralism"</p></div>
 </div>
 <div class="row" markdown="0">
-  <div class="col-md-2 text-right"><strong>Spring 2013</strong></div>
-  <div class="col-md-10"><p>"How video games change the brain and influence behavior"</p></div>
+  <div class="col-3 text-right"><strong>Spring 2013</strong></div>
+  <div class="col"><p>"How video games change the brain and influence behavior"</p></div>
 </div>
 
 
@@ -260,11 +260,11 @@ Work Experience
 
 {% for work in site.data.work %}
 <div class="row" markdown="0">
-<div class="col-md-2 text-right">
+<div class="col-3 text-right">
 <strong>{{work.date}}</strong>
 <div class="text-muted">{{work.place}}</div>
 </div>
-<div class="col-md-10" markdown="1">
+<div class="col" markdown="1">
 <strong>{{work.title}}</strong>  
 {{work.job}}  
 </div>
@@ -274,11 +274,11 @@ Work Experience
 ### K-12 Education
 {% for work in site.data.teaching %}
 <div class="row" markdown="0">
-<div class="col-md-2 text-right">
+<div class="col-3 text-right">
 <strong>{{work.date}}</strong>
 <p class="text-muted">{{work.place}}</p>
 </div>
-<div class="col-md-10" markdown="1">
+<div class="col" markdown="1">
 <strong>{{work.title}}</strong>  
 {{work.job}}  
 </div>
@@ -289,11 +289,11 @@ Professional service & Volunteer Work
 -------------------------------------
 {% for work in site.data.service %}
 <div class="row" markdown="0">
-<div class="col-md-2 text-right">
+<div class="col-3 text-right">
 <strong>{{work.date}}</strong>
 <p class="text-muted">{{work.place}}</p>
 </div>
-<div class="col-md-10" markdown="1">
+<div class="col" markdown="1">
 <strong>{{work.title}}</strong>  
 {{work.job}}  
 </div>
@@ -305,19 +305,19 @@ Professional service & Volunteer Work
 Skills
 -----------------------------------------
 <div class="row" markdown="0">
-<div class="col-md-2 text-right">
+<div class="col-3 text-right">
 <strong>computer</strong>
 </div>
-<div class="col-md-10" markdown="1">
+<div class="col" markdown="1">
 Python, Javascript, Java, Android, SQL, PHP, LISP, C++
 </div>
 </div>
 
 <div class="row" markdown="0">
-<div class="col-md-2 text-right">
+<div class="col-3 text-right">
 <strong>languages</strong>
 </div>
-<div class="col-md-10" markdown="1">
+<div class="col" markdown="1">
 English, Spanish, intermediate Italian
 </div>
 </div>
