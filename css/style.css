@@ -169,12 +169,21 @@ blockquote
 {
    visibility: visible;
    transition: visibility .5s, opacity .5s ease-out;
+   /*transition: width .5s ease-in;*/
    opacity: 1;
 }
+
+/*.port-thumb 
+{
+  overflow: hidden;
+}*/
+
 .port-thumb:hover img
 {
   opacity: 0;
   visibility: hidden;
+/*  width: 130%;
+  max-width: 130%;*/
 }
 
 .port-thumb.active img
@@ -208,7 +217,7 @@ blockquote
 
     @charset "UTF-8";
 
-    * { color: black !important; }
+    /** { color: black !important; }*/
 
     .break
     {
