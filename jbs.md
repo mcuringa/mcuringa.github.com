@@ -9,12 +9,12 @@ order: 20
 pics:
 - living-full_th.jpg
 - living-island_th.jpg
-- desk-tv_th.jpg
+- table_th.jpg
 - master-1_th.jpg
 ---
 <style>
 html, body, h1 { margin: 0; padding: 0; }
-html {margin: .25in 0;}
+/*html {margin: .25in 0;}*/
 </style>
 
 Sunny 2 Bed/2 Bath Sublet—½ a block from Joyce Bakeshop!

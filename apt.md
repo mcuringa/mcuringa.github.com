@@ -42,13 +42,13 @@ Flexible dates (1 month minimum stay).
     - ice maker
     - filtered water
     - french doors 
+  - dishwasher
   - Alessi esspresso maker
 - open layout
   - 40" HD Sony TV
   - high speed internet/wifi
   - dining area
   - large balcony overlooking street
-  - (optional) programmer's workstation desktop with 27" LCD
 </div>
 <div class="col-md-6" markdown="1">
 - master bedroom 
