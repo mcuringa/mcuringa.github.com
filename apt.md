@@ -7,19 +7,27 @@ permalink: /apt.html
 id: apt
 order: 20
 pics:
-- sofa.jpg
-- desk-tv.jpg
-- living-island.jpg
-- living-full.jpg
-- lr-kitchen.jpg
-- table.jpg
-- master-1.jpg
-- master-3.jpg
-- bunks2.jpg
-- bunkbeds.jpg
+- sofa
+- desk-tv
+- living-island
+- living-full
+- lr-kitchen
+- table
+- master-1
+- master-3
+- bunks2
+- bunkbeds
+- washer
+- bathroom-1
 
 ---
-<style>.lead{ font-size: 2rem; padding: 1em; }</style>
+<style>
+.lead{ font-size: 2rem; padding: 1em; }
+.img-thumbnail
+{
+  width: 100px;
+}
+</style>
 
 Sunny 2 Bedroom/2 Bath Sublet
 =============================
@@ -43,7 +51,7 @@ Flexible dates (1 month minimum stay).
     - filtered water
     - french doors 
   - dishwasher
-  - Alessi esspresso maker
+  - Alessi espresso maker
 - open layout
   - 40" HD Sony TV
   - high speed internet/wifi
@@ -65,6 +73,8 @@ Flexible dates (1 month minimum stay).
   - 1 jacuzzi tub
   - Bosch washer &amp; dryer (brand new!) in second bath
 </div>
+</div> <!-- end row -->
+<div class="row">
 <div class="col-md-5" markdown="1">
 **The building &amp; neighborhood:**
 {: .bg-dark .text-center .text-light}
@@ -78,23 +88,14 @@ _10 minutes to Manhattan from one of the best blocks in Brooklyn: great bars and
 - bike storage in garage
 - garage door openers for easy access while cycling
 - concrete floors for great sound proofing (and quiet, friendly neighbors)
-
 </div>
-<div class="col">
-<div class="row  no-gutters">
-{% for pic in page.pics %}
-<div class="col-md-4">
-  <a href="/img/apt/{{pic}}" title="click to see full size" target="_"><img src="/img/apt/{{pic}}" class="img-fluid img-thumbnail"></a>
+<div class="col" markdown="0">
+  <div id="links">
+  {% for pic in page.pics %}
+    <a href="/img/apt/{{pic}}.jpg" title="click to see full size"><img class="img-thumbnail" src="/img/apt/{{pic}}_th.jpg"></a>
+  {% endfor %}
+  </div>
 </div>
-{% endfor %}
-<div class="col-md-4">
-  <a href="/img/apt/washer.jpg" title="click to see full size" target="_"><img src="/img/apt/washer_th.jpg" class="img-fluid img-thumbnail"></a>
 </div>
 
-<div class="col-md-4">
-  <a href="/img/apt/bathroom-1.jpg" title="click to see full size" target="_"><img src="/img/apt/bathroom-1_th.jpg" class="img-fluid img-thumbnail"></a>
-</div>
-</div>
-</div>
-</div>
 
