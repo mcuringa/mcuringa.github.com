@@ -67,6 +67,11 @@ http://matt.curinga.com
             
             </li>
           {% endfor %}
+            {% if "/mxc-gpg.txt" == nav.url %}
+              <a href="{{nav.url}}" class="nav-link active">GPG Key<span class="sr-only">(current)</span></a>
+            {% else %}
+              <a href="/mxc-gpg.txt" class="nav-link">GPG Key</a>
+            {% endif %}
           </ul>
         </div>
     </nav>
