@@ -94,6 +94,8 @@ Book chapters
 
 Refereed conference papers & presentations
 ------------------------------------------
+**Curinga, M.** (2018). Video games for learning in computer science education. _British Educational Research Association (BERA) Annula Conference 2018_. Northumbria University, Newcastle, England, September 11-13, 2018.
+
 Carlin, M., & **Curinga, M.** (2017). Educating against capitalism and corporatization through cooperative schooling. Presented at _Marx's Critique of Political Economy and the Global Crisis Today: On the 150th Anniversary of the Publication of Capital_, Hofstra University, New York.
 
 Auchter, K., Groves, H., and **Curinga, M.** (2015). Opening OER to more students through computer supported peer tutoring. _The sixth international conference on Open Education_, Cardiff, Wales, April 14-15, 2015.
