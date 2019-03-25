@@ -52,7 +52,7 @@ Academic positions
   </div>
 <div class="col" markdown="1">
 **[Adelphi University](http://education.adelphi.edu/)**  
-Program in Educational Technology, RSA School of Education  
+Program in Educational Technology, College of Education and Health Sciences
 Associate Professor, 2016-present  
 Program Director, 2011-2014, 2016-present  
 Assistant Professor, 2010-2016  
@@ -209,31 +209,32 @@ _{{work.inst}}_
 Courses Taught
 --------------
 
-|---------------------------------------------------------------------------------------------------------+--------------------+
-| Course                                                                                                  |Format(s)           |
-|---------------------------------------------------------------------------------------------------------|--------------------|
-|---------------------------------------------------------------------------------------------------------+--------------------+
-| _Adelphi University, Dept of Math & Comp Science_                                                       |                    |
-| Computer Programming for Non-Majors (undergraduate)                                                     |traditional         |
-| [Introduction to Computer Programming](https://www.auedtech.org/syllabuses/intro-to-programming.html)   |traditional         |
-| _Adelphi University, School of Education_                                                               |                    |
-| [Web Based Programming of Educational Media](https://www.auedtech.org/syllabuses/web-programming.html)  |online, traditional |
-| [Digital Literacies](https://www.auedtech.org/syllabuses/digital-literacies.html)                       |traditional         |
-| [Foundations of Open Education](https://www.auedtech.org/syllabuses/open-ed.html)                       |hybrid              |
-| [Educators Multimedia Studio](https://www.auedtech.org/syllabuses/multimedia-studio.html)               |hybrid              |
-| [Research & Evaluation of Ed Tech](https://www.auedtech.org/syllabuses/research-seminar.html)           |traditional         |
-| [School-based practicum in Ed Tech](https://www.auedtech.org/syllabuses/ed-tech-school-practicum.html)  |hybrid              |
-| Philosophy of Visual Media                                                                              |online              |
-| [Mobile Learning](https://www.auedtech.org/syllabuses/mlearning.html)                                   |hybrid              |
-| [Learning with video games](https://www.auedtech.org/syllabuses/video-games.html)                       |traditional         |
-| Community, Schools, & Society (undergraduate)                                                           |traditional         |
-| Technology and Instruction                                                                              |traditional         |
-| _Teachers College, Columbia University_                                                                 |                    |
-| [Object Oriented Programming](http://matt.curinga.com/java2 "see the course syllabus")                  |traditional         |
-| Introduction to Computers, Language, and Literacy, co-taught with Jo Anne Kleifgen                      |traditional         |
-| Data Driven Website Development                                                                         |traditional         |
-|---------------------------------------------------------------------------------------------------------+--------------------+
-{: #courses-taught .table .table-hover .table-compact }
+|------------------------------------------------------------------------------------------------------------------------+--------------------+
+| Course                                                                                                                 |Format(s)           |
+|------------------------------------------------------------------------------------------------------------------------|--------------------|
+|------------------------------------------------------------------------------------------------------------------------+--------------------+
+| _Adelphi University, Dept of Math & Comp Science_                                                                      |                    |
+| Computer Programming for Non-Majors (undergraduate)                                                                    |traditional         |
+| [Introduction to Computer Programming](https://mcuringa.github.io/adelphi-ed-tech-courses/intro-to-programming.html)   |online, traditional |
+| _Adelphi University, School of Education_                                                                              |                    |
+| [Web Based Programming of Educational Media](https://mcuringa.github.io/adelphi-ed-tech-courses/web-programming.html)  |online, traditional |
+| [Digital Literacies](https://mcuringa.github.io/adelphi-ed-tech-courses/digital-literacies.html)                       |online         |
+| [Foundations of Open Education](https://mcuringa.github.io/adelphi-ed-tech-courses/open-ed.html)                       |hybrid              |
+| [Educators Multimedia Studio](https://mcuringa.github.io/adelphi-ed-tech-courses/multimedia-studio.html)               |hybrid              |
+| [Research & Evaluation of Ed Tech](https://mcuringa.github.io/adelphi-ed-tech-courses/research-seminar.html)           |traditional         |
+| [School-based practicum in Ed Tech](https://mcuringa.github.io/adelphi-ed-tech-courses/ed-tech-school-practicum.html)  |hybrid              |
+| Special Topic: Philosophy of Visual Media                                                                              |online              |
+| [Mobile Learning](https://mcuringa.github.io/adelphi-ed-tech-courses/mlearning.html)                                   |hybrid              |
+| [Learning with video games](https://mcuringa.github.io/adelphi-ed-tech-courses/video-games.html)                       |traditional         |
+| [Teaching with social media](https://mcuringa.github.io/adelphi-ed-tech-courses/social-media.html)                     |online         |
+| Community, Schools, & Society (undergraduate)                                                                          |traditional         |
+| Technology and Instruction                                                                                             |traditional         |
+| _Teachers College, Columbia University_                                                                                |                    |
+| [Object Oriented Programming](https://matt.curinga.com/java2 "see the course syllabus")                                |traditional         |
+| Introduction to Computers, Language, and Literacy, co-taught with Jo Anne Kleifgen                                     |traditional         |
+| Data Driven Website Development                                                                                        |traditional         |
+|------------------------------------------------------------------------------------------------------------------------+--------------------+
+{: #courses-taught .table .table-hover .table-sm }
 
 Integrative Masters Projects (directed)
 ---------------------------------------
