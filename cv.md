@@ -188,7 +188,6 @@ Software works
 {% endfor %}
 
 
-
 Grants & Funded Research
 -------------------------------
 
@@ -203,6 +202,21 @@ Grants & Funded Research
 _{{work.inst}}_  
 {{work.researchers}}
 </div>
+</div>
+{% endfor %}
+
+Awards & Honors
+---------------
+
+{% for award in site.data.awards %}
+<div class="row" markdown="0">
+  <div class="col-3 text-right">
+    <strong>{{award.date}}</strong>
+  </div>
+  <div class="col">
+    <strong markdown="1">{{award.title}}</strong>
+    <p class="text-muted">{{award.note}}</p>
+  </div>
 </div>
 {% endfor %}
 
