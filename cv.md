@@ -17,7 +17,7 @@ order: 20
 <div class="contact text-right text-muted">
   <a href="mailto:mcuringa@adelphi.edu" class="text-muted">mcuringa@adelphi.edu</a><br>
   <a href="https://matt.curinga.com" title="go to the personal website of matt curinga" class="text-muted">https://matt.curinga.com</a><br>
-  <a href="https://www.auedtech.org" title="go to the adelphi ed tech program website" class="text-muted">https://www.auedtech.org</a><br>
+  <a href="https://www.adelphi.edu/program/graduate/ed-tech/" title="go to the adelphi ed tech program website" class="text-muted">https://www.adelphi.edu/program/graduate/ed-tech/</a><br>
   <a href="https://github.com/mcuringa" title="github repos" class="text-muted">https://github.com/mcuringa</a><br>
   <a href="https://twitter.com/mxc" title="infrequent tweets" class="text-muted">https://twitter.com/mxc</a>
 </div>
