@@ -1,7 +1,7 @@
 ---
 title: "Curriculum Vitae::Matthew X. Curinga"
 excerpt: "The academic CV of Matthew X. Curinga, computer programmer, instructional designer, and software studies researcher."
-sitemap: true
+sitemap: false
 layout: default
 permalink: /cv-short.html
 id: cv-short

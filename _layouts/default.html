@@ -43,14 +43,15 @@ http://matt.curinga.com
 <body>
   <header id="page-header" class="d-print-none">
     <nav id="top-nav" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
         <span class="navbar-brand mb-0 h1">matthew x. curinga</span>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div class="collapse navbar-collapse navbar-right" id="main-nav">
-          <ul class="navbar-nav mr-auto">
-          {% assign nav_pages = site.pages | sort:"order" %}
+        <div class="collapse navbar-collapse" id="main-nav">
+          <ul class="navbar-nav">
+          {% assign nav_pages = site.pages | sort:"order" | where: "sitemap", true %}
           {% for nav in nav_pages %}
             <li id="{{nav.id}}" class="nav-item">
             {% if page.url == nav.url %}
@@ -58,38 +59,23 @@ http://matt.curinga.com
             {% else %}
               <a href="{{nav.url}}" class="nav-link">{{nav.nav-title}}</a>
             {% endif %}
-            
             </li>
+            
           {% endfor %}
+            <li class="nav-item">
             {% if "/mxc-gpg.txt" == nav.url %}
               <a href="{{nav.url}}" class="nav-link active">GPG Key</a>
             {% else %}
               <a href="/mxc-gpg.txt" class="nav-link">GPG Key</a>
             {% endif %}
+            </li>
           </ul>
         </div>
+      </div>
     </nav>
   
   </header>
   <div id="main" class="container">
-    {% if page.subnav %}
-      <nav id="subnav" class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="collapse navbar-collapse" id="subnav">
-          <ul class="navbar-nav mr-auto">
-          {% assign nav_pages = site.pages | sort:"order" %}
-          {% for nav in nav_pages %}
-            <li id="{{nav.id}}" class="nav-item">
-            {% if page.url == nav.url %}
-              <a href="{{nav.url}}" class="nav-link active">{{nav.nav-title}}</a>
-            {% else %}
-              <a href="{{nav.url}}" class="nav-link">{{nav.nav-title}}</a>
-            {% endif %}
-            </li>
-          {% endfor %}
-          </ul>
-        </div>
-      </nav>
-    {% endif %}
     <section id="content" class="">
       <div class="">
         {{ content }}
