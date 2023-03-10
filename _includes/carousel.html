@@ -1,0 +1,21 @@
+<hr class="mb-2">
+<div id="{{page.id}}_carousel" class="carousel slide">
+    <div class="carousel-indicators">
+        {% for card in page.cards %}
+        <button type="button" data-bs-target="#{{page.id}}_carousel" data-bs-slide-to="{{ (forloop.index0) }}"
+            class="{{card.css_class}}" aria-current="true" aria-label="Slide {{ (forloop.index1) }}"></button>
+        {% endfor %}
+    </div>
+
+    <div class="carousel-inner">
+        {% for card in page.cards %}
+        <div class="carousel-item {{card.css_class}}">
+            <img src="{{card.img}}" class="d-block w-100" alt="{{card.alt}}">
+            <div class="carousel-caption d-none d-md-block bg-dark rounded-3" style="opacity:.80">
+                <h5>{{card.title}}</h5>
+                <p>{{card.desc}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
