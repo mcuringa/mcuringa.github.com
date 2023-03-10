@@ -2,61 +2,56 @@
 title: "Selected Software Projects::Matthew X. Curinga"
 excerpt: "Portfolio of selected software and instructional design projects."
 sitemap: true
-layout: portfolio
+layout: default
 permalink: /software.html
 id: software
 nav-title: portfolio
 order: 30
+cards:
+  - title: nycschools
+    thumb: /img/portfolio/nycschools/thumb.png
+    alt: nyc schools open data
+    desc: Free Open Source Software library for open school data
+    link: https://adelphi-ed-tech.github.io/nycschools/
+  - title: PyTutor
+    thumb: /img/portfolio/pytutor/thumb.png
+    desc: Social tutoring platform for studying computer science
+    link: /software/pytutor.html
+  - title: Wordpress
+    thumb: /img/portfolio/wp/thumb.png
+    desc: Wordpress info design, themes, and plug-ins
+    link: /software/wordpress.html
+  - title: STEPS to Literacy
+    thumb: /img/portfolio/steps/thumb.png
+    desc: Bilingual writing platform for critical literacy
+    link: /software/steps.html
+  - title: Brainscape
+    thumb: /img/portfolio/brainscape/thumb.png
+    desc: Brainscape mobile flash cards for Android and iOS
+    link: /software/brainscape.html
+  - title: RewardTV
+    thumb: /img/portfolio/rtv/thumb.png
+    desc: Gamification website to survey media viewing habits
+    link: /software/rtv.html
 ---
+<h1>selected software and instructional design projects</h1>
 
-<div class="row" markdown="0">
-	<!-- <div class="col-md-3 d-md-block d-sm-none"> -->
-	<div class="col-md-3 col-12">
-		<div class="container-fluid">
-			<div class="row bg-dark no-gutters">
-				{% assign works = site.portfolio | sort:"work-number" %}
-				{% for work in works %}
-					<div id="thumb-{{forloop.index}}" class="col-md-6 col-2 port-thumb">
-						<a href="#{{work.title}}" onclick="activate({{forloop.index}})">
-							<div class="port-title text-center">{{work.title}}</div>
-              <img src="{{work.img}}" alt="{{work.title}}" class="img-fluid">
-						</a>
-					</div>
-				{% endfor %}
-			</div> <!-- end thumb row -->
-		</div> <!-- end thumb container -->
-	</div> <!-- end col 1 -->
 
-	<div id="portfolio-details" class="col-md-9" markdown="0">
-		<div class="spinner text-muted"><img src="/img/spinner.gif">Loading...</div>
-		{% for work in works %}
-			<div id="work-{{forloop.index}}" class="port-details">
-				{{work.content}}
-			</div>
-		{% endfor %}
-	</div>
+<div id="ProjectGallery" class="container">
+    <div class="row">
+    {% for card in page.cards %}
+        <div class="col-md-4 col-sm-1">
+            <div class="card">
+                <img src="{{card.thumb}}" class="card-img-top" alt="{{card.alt}}">
+                <div class="card-body">
+                    <h5 class="card-title">{{card.title}}</h5>
+                    <p class="card-text">{{card.desc}}</p>
+                    <a href="{{card.link}}" class="btn btn-primary">Read More</a>
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
 </div>
 
-<script>
-let workMap = {
-  "": 1,
 
-{% for work in works %}
-"#{{work.title}}": {{forloop.index}},
-{% endfor %}
-};
-
-function activate(index) 
-{
-	$(".port-details").removeClass("active");
-	$("#work-" + index).addClass("active");
-	$(".port-thumb").removeClass("active");
-	$("#thumb-" + index).addClass("active");
-}
-
-window.onload = ()=> {
-    let work = window.location.hash;
-    $(".spinner").hide()
-    activate(workMap[work]);
-};
-</script>

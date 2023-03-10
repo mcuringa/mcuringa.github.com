@@ -10,14 +10,14 @@ order: 20
 ---
 
 
-<header id="cv-header" class="text-right" markdown="0">
-<p class="text-right">
+<header id="cv-header" markdown="0">
+<p class="text-end">
 <strong>Matthew X. Curinga</strong><br>
 </p>
-<div class="contact text-right text-muted">
+<div class="contact text-end text-muted">
   <a href="mailto:mcuringa@adelphi.edu" class="text-muted">mcuringa@adelphi.edu</a><br>
   <a href="https://matt.curinga.com" title="go to the personal website of matt curinga" class="text-muted">https://matt.curinga.com</a><br>
-  <a href="https://www.adelphi.edu/program/graduate/ed-tech/" title="go to the adelphi ed tech program website" class="text-muted">https://www.adelphi.edu/program/graduate/ed-tech/</a><br>
+  <a href="https://mixi.nyc" title="mixi research and practice institute" class="text-muted">https://mixi.nyc</a><br>
   <a href="https://github.com/mcuringa" title="github repos" class="text-muted">https://github.com/mcuringa</a><br>
   <a href="https://twitter.com/mxc" title="infrequent tweets" class="text-muted">https://twitter.com/mxc</a>
 </div>
@@ -29,7 +29,7 @@ Education
 
 {% for school in site.data.education %}
 <div class="row" markdown="0">
-<div class="col-3 text-right">
+<div class="col-3 text-end">
 
 <strong>{{school.date}}</strong>
 <div class="text-muted">{{school.place}}</div>
@@ -46,7 +46,7 @@ Education
 Academic positions
 ------------------
 <div class="row" markdown="0">
-  <div class="col-3 text-right">
+  <div class="col-3 text-end">
     <strong>2010-present</strong>
     <div class="text-muted">New York</div>
   </div>
@@ -60,7 +60,7 @@ Assistant Professor, 2010-2016
 </div>
 
 <div class="row" markdown="0">
-  <div class="col-3 text-right">
+  <div class="col-3 text-end">
     <strong>2001, 2007-08</strong>
     <div class="text-muted">New York, NY</div>
   </div>
@@ -95,7 +95,11 @@ Book chapters
 
 Refereed conference papers & presentations
 ------------------------------------------
-**Curinga, M.** (2018). Video games for learning in computer science education. _British Educational Research Association (BERA) Annula Conference 2018_. Northumbria University, Newcastle, England, September 11-13, 2018.
+**Curinga, M.** (2023). Protocol: A Constructionist game for teaching computing and adapted design in the Maker Lab. _The 2023 Annual Meeting of the American Education Research Association_, Chicago, IL, April 13-16, 2023.
+
+**Curinga, M.**, Johnson, T., Sahabir, K., Wilcox, R., Choi, H., and Saravanos, A. (2023). Learning Python and data science with NYC Schools Open Data Portal. _NYC Open Data Week 2023_, New York, NY, March 11-18, 2023.
+
+**Curinga, M.** (2018). Video games for learning in computer science education. _British Educational Research Association (BERA) Annual Conference 2018_. Northumbria University, Newcastle, England, September 11-13, 2018.
 
 Carlin, M., & **Curinga, M.** (2017). Educating against capitalism and corporatization through cooperative schooling. Presented at _Marx's Critique of Political Economy and the Global Crisis Today: On the 150th Anniversary of the Publication of Capital_, Hofstra University, New York.
 
@@ -114,7 +118,6 @@ Auchter, K., Groves, H., and **Curinga, M.** (2015). Opening OER to more student
 Hoffman, D., Saravanos, A., Hung, A. C. Y. and **Curinga, M.** (2011). Examining the importance of spatial contiguity and implicit learning in educational game design. Presented at _Games+Learning+Society (GLS) 7.0_, Madison, WI, June 15-17.
 
 Saravanos, A., & **Curinga, M.** Lessons learned from using a wiki as a course management system. Presented at _The 41st ACM Technical Symposium on Computer Science Education (SIGCSE)_. Milwaukee, WI, USA, March 10-13, 2010.
-
 
 Sullivan, I. and **Curinga, M.** (2010). Wikiotics language lesson assembly studio. _Mozilla Drumbeat Festival: learning, freedom and the web_. Barcelona, Spain, November 3-5, 2010.
 
@@ -177,14 +180,14 @@ Software works
 
 {% for work in site.data.software %}
 <div class="row" markdown="0">
-  <div class="col-3 text-right">
-
-    <strong>{{work.date}}</strong>
-  </div>
-  <div class="col">
-    <strong markdown="1">[{{work.title}}]({{work.link}})</strong>—{{work.note}}
-    <p><em>{{work.role}}</em></p>
-  </div>
+<div class="col-3 text-end">
+<strong>{{work.date}}</strong>
+<div class="text-muted">{{work.role}}<p>{{work.tech}}</p></div>
+</div>
+<div class="col" markdown="1">
+**{{work.title}}**<br>
+_{{work.desc}}_
+</div>
 </div>
 {% endfor %}
 
@@ -194,7 +197,7 @@ Grants & Funded Research
 
 {% for work in site.data.grants %}
 <div class="row" markdown="0">
-<div class="col-3 text-right">
+<div class="col-3 text-end">
 <strong>{{work.date}}</strong>
 <div class="text-muted">{{work.amount}}<p>{{work.funded}}</p></div>
 </div>
@@ -211,7 +214,7 @@ Awards & Honors
 
 {% for award in site.data.awards %}
 <div class="row" markdown="0">
-  <div class="col-3 text-right">
+  <div class="col-3 text-end">
     <strong>{{award.date}}</strong>
   </div>
   <div class="col">
@@ -228,26 +231,30 @@ Courses Taught
 | Course                                                                                                                 |Format(s)           |
 |------------------------------------------------------------------------------------------------------------------------|--------------------|
 |------------------------------------------------------------------------------------------------------------------------+--------------------+
-| _Adelphi University, Dept of Math & Comp Science_                                                                      |                    |
-| Computer Programming for Non-Majors (undergraduate)                                                                    |traditional         |
-| [Introduction to Computer Programming](https://mcuringa.github.io/adelphi-ed-tech-courses/intro-to-programming.html)   |online, traditional |
-| _Adelphi University, School of Education_                                                                              |                    |
-| [Web Based Programming of Educational Media](https://mcuringa.github.io/adelphi-ed-tech-courses/web-programming.html)  |online, traditional |
-| [Digital Literacies](https://mcuringa.github.io/adelphi-ed-tech-courses/digital-literacies.html)                       |online         |
-| [Foundations of Open Education](https://mcuringa.github.io/adelphi-ed-tech-courses/open-ed.html)                       |hybrid              |
-| [Educators Multimedia Studio](https://mcuringa.github.io/adelphi-ed-tech-courses/multimedia-studio.html)               |hybrid              |
-| [Research & Evaluation of Ed Tech](https://mcuringa.github.io/adelphi-ed-tech-courses/research-seminar.html)           |traditional         |
-| [School-based practicum in Ed Tech](https://mcuringa.github.io/adelphi-ed-tech-courses/ed-tech-school-practicum.html)  |hybrid              |
-| Special Topic: Philosophy of Visual Media                                                                              |online              |
-| [Mobile Learning](https://mcuringa.github.io/adelphi-ed-tech-courses/mlearning.html)                                   |hybrid              |
-| [Learning with video games](https://mcuringa.github.io/adelphi-ed-tech-courses/video-games.html)                       |traditional         |
-| [Teaching with social media](https://mcuringa.github.io/adelphi-ed-tech-courses/social-media.html)                     |online         |
-| Community, Schools, & Society (undergraduate)                                                                          |traditional         |
-| Technology and Instruction                                                                                             |traditional         |
+| _Adelphi University, Dept of Math & Comp Science_                                                                      |campus              |
+| Computer programming for con-majors (undergraduate)                                                                    |campus              |
+| [Introduction to computer programming](https://adelphi-ed-tech.github.io/au-courses/intro-to-programming.html)         |online, campus      |
+| _Adelphi University, College of Education & Health Sciences_                                                           |                    |
+| [Digital literacies](https://adelphi-ed-tech.github.io/au-courses/digital-literacies.html)                             |online              |
+| [Educational information systems and networks](https://adelphi-ed-tech.github.io/au-courses/school-networks.html)      |online, campus      |
+| [Educators multimedia studio](https://adelphi-ed-tech.github.io/au-courses/multimedia-studio.html)                     |hybrid, online      |
+| [Foundations of open education](https://adelphi-ed-tech.github.io/au-courses/open-ed.html)                             |hybrid              |
+| [Learning with video games](https://adelphi-ed-tech.github.io/au-courses/video-games.html)                             |campus              |
+| Maker Lab 2: Equity lab                                                                                                |campus, hybrid      |
+| Maker Lab 3: School lab                                                                                                |campus, hybrid      |
+| [Mobile learning](https://adelphi-ed-tech.github.io/au-courses/mlearning.html)                                         |hybrid              |
+| [Online learning](https://adelphi-ed-tech.github.io/au-courses/online-ed.html)                                         |hybrid              |
+| [Research & evaluation of ed tech](https://adelphi-ed-tech.github.io/au-courses/research-seminar.html)                 |campus              |
+| Special Topic: Philosophy of visual media                                                                              |online              |
+| Special Topic: Learning analytics                                                                                      |online              |
+| [Teaching with social media](https://adelphi-ed-tech.github.io/au-courses/social-media.html)                           |online              |
+| [Web based programming of educational media](https://adelphi-ed-tech.github.io/au-courses/web-programming.html)        |online, campus      |
+| Community, Schools, & Society (undergraduate)                                                                          |campus              |
+| Technology and instruction                                                                                             |campus              |
 | _Teachers College, Columbia University_                                                                                |                    |
-| [Object Oriented Programming](https://matt.curinga.com/java2 "see the course syllabus")                                |traditional         |
-| Introduction to Computers, Language, and Literacy, co-taught with Jo Anne Kleifgen                                     |traditional         |
-| Data Driven Website Development                                                                                        |traditional         |
+| Object Oriented Programming                                                                                            |campus              |
+| Introduction to computers, language, and literacy, co-taught with Jo Anne Kleifgen                                     |campus              |
+| Data driven website development                                                                                        |campus              |
 |------------------------------------------------------------------------------------------------------------------------+--------------------+
 {: #courses-taught .table .table-hover .table-sm }
 
@@ -255,7 +262,7 @@ Integrative Masters Projects (directed)
 ---------------------------------------
 {% for work in site.data.theses %}
 <div class="row" markdown="0">
-  <div class="col-3 text-right"><strong>{{work.date}}</strong></div>
+  <div class="col-3 text-end"><strong>{{work.date}}</strong></div>
   <div class="col"><p>{{work.authors}}, "{{work.title}}"</p></div>
 </div>
 {% endfor %}
@@ -263,11 +270,11 @@ Integrative Masters Projects (directed)
 Undergraduate Honors Theses (reader)
 ---------------------------------------
 <div class="row" markdown="0">
-  <div class="col-3 text-right"><strong>Spring 2014</strong></div>
+  <div class="col-3 text-end"><strong>Spring 2014</strong></div>
   <div class="col"><p>"The millennial epistemology: Viralism"</p></div>
 </div>
 <div class="row" markdown="0">
-  <div class="col-3 text-right"><strong>Spring 2013</strong></div>
+  <div class="col-3 text-end"><strong>Spring 2013</strong></div>
   <div class="col"><p>"How video games change the brain and influence behavior"</p></div>
 </div>
 
@@ -278,7 +285,7 @@ Work Experience
 
 {% for work in site.data.work %}
 <div class="row" markdown="0">
-<div class="col-3 text-right">
+<div class="col-3 text-end">
 <strong>{{work.date}}</strong>
 <div class="text-muted">{{work.place}}</div>
 </div>
@@ -292,7 +299,7 @@ Work Experience
 ### K-12 Education
 {% for work in site.data.teaching %}
 <div class="row" markdown="0">
-<div class="col-3 text-right">
+<div class="col-3 text-end">
 <strong>{{work.date}}</strong>
 <p class="text-muted">{{work.place}}</p>
 </div>
@@ -307,7 +314,7 @@ Professional service & Volunteer Work
 -------------------------------------
 {% for work in site.data.service %}
 <div class="row" markdown="0">
-<div class="col-3 text-right">
+<div class="col-3 text-end">
 <strong>{{work.date}}</strong>
 <p class="text-muted">{{work.place}}</p>
 </div>
@@ -323,18 +330,18 @@ Professional service & Volunteer Work
 Skills
 -----------------------------------------
 <div class="row" markdown="0">
-<div class="col-3 text-right">
+<div class="col-3 text-end">
 <strong>computer</strong>
 </div>
 <div class="col" markdown="1">
-Python (Pandas, Numpy, GeoPy, Flask, Django, NLTK, circuit/micropython),
+Python (Pandas, Numpy, GeoPandas, Flask, Django, NLTK, circuit/micropython),
 Javascript (React, Leaflet, d3, node),
 Java, Android, SQL/nosql, PHP, LISP, C++
 </div>
 </div>
 
 <div class="row" markdown="0">
-<div class="col-3 text-right">
+<div class="col-3 text-end">
 <strong>languages</strong>
 </div>
 <div class="col" markdown="1">

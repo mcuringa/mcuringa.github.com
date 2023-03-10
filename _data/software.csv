@@ -1,8 +1,10 @@
-date,title,link,note,role
-2018,Peer Challenge,/software.html#PeerChallenge,mobile app to support peer-to-peer, case-based learning,Lead programmer
-2014-2017,PyTutor,/software.html#PyTutor,a social tutoring/peer-learning approach to online computer science education.,Lead developer/architect.
-2010-2014,Wikiotics,/software.html#Wikiotics,Free/Open language learning wiki.,Instructional design, curriculum development, software architecture.
-2009-2010,Brainscape,/software.html#Brainscape,Mobile & Web Study Platform,Lead developer
-2002-2008,RewardTV,/software.html#RewardTV,Gamified Media/Market Research Platform,Lead programmer
-1999-2002,mLogic,/software.html#Crisp,Crisp Wireless' mobile media authoring platform,Co-founder &amp;Chief Technical Officer
-1997-1999,RunTime,#,Web Content Management System,Software engineer
+date,title,desc,tech,role
+2022-present,nycschools,Open source python library to analyze public school data,python – pandas,lead developer
+2018,Peer Learning,Mobile app to support peer-to-peer learning,javascript – react - node,lead developer
+2014-2017,PyTutor,Social/peer learning for computer science problems,python – django,lead developer
+2010-2014,Wikiotics,Free/Open language learning wiki,python,instructional designer
+2009-2010,Brainscape,Mobile flashcards and studying,java – android,lead developer
+2006-2008,STEPS to Literacy,Bilingual writing/instructional platform for critical literacy,python – zope,researcher / programmer
+2002-2008,RewardTV,Gamified media/market research platform,java,sr. software engineer
+1999-2002,mLogic,Crisp Wireless' mobile media authoring platform,java – android,Co-founder & CTO
+1997-1999,RunTime,Web Content Management System,cold fusion (!!),software engineer
