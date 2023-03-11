@@ -44,8 +44,9 @@ http://matt.curinga.com
   <header id="page-header" class="d-print-none">
     <nav id="top-nav" class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
-        <span class="navbar-brand mb-0 h1">matthew x. curinga</span>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <a href="/" class="navbar-brand mb-0 fw-bold">matthew x. curinga</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav"
+                aria-controls="main-nav" aria-expanded="false" aria-label="toggle nav">
           <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -60,14 +61,9 @@ http://matt.curinga.com
               <a href="{{nav.url}}" class="nav-link">{{nav.nav-title}}</a>
             {% endif %}
             </li>
-            
           {% endfor %}
             <li class="nav-item">
-            {% if "/mxc-gpg.txt" == nav.url %}
-              <a href="{{nav.url}}" class="nav-link active">GPG Key</a>
-            {% else %}
               <a href="/mxc-gpg.txt" class="nav-link">GPG Key</a>
-            {% endif %}
             </li>
           </ul>
         </div>
@@ -95,8 +91,6 @@ http://matt.curinga.com
       keyboard: true
     });
   });
-
-
 </script>
 </body>
 </html>
