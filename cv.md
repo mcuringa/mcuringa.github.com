@@ -178,7 +178,8 @@ White papers, working papers, technical reports, etc
 Software works
 --------------
 
-{% for work in site.data.software %}
+{% for work in site.data.software  | sort:"order" %}
+{% if work.cv == "1" %}
 <div class="row" markdown="0">
 <div class="col-3 text-end">
 <strong>{{work.date}}</strong>
@@ -189,6 +190,7 @@ Software works
 _{{work.desc}}_
 </div>
 </div>
+{% endif %}
 {% endfor %}
 
 

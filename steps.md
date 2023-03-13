@@ -2,7 +2,7 @@
 title: "STEPS::Matthew X. Curinga"
 excerpt: "STEPS bilingual writing platform"
 sitemap: false
-layout: default
+layout: portfolio
 permalink: /software/steps.html
 id: steps
 order: 30

@@ -2,7 +2,7 @@
 title: "Wordpress Projects::Matthew X. Curinga"
 excerpt: "Wordpress site development"
 sitemap: false
-layout: default
+layout: portfolio
 permalink: /software/wordpress.html
 id: wp
 order: 30

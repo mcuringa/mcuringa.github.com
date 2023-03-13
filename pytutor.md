@@ -2,7 +2,7 @@
 title: "PyTutor::Matthew X. Curinga"
 excerpt: "Pytutor CS study environment"
 sitemap: false
-layout: default
+layout: portfolio
 permalink: /software/pytutor.html
 id: pytutor
 order: 30

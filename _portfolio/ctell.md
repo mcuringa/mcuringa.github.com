@@ -34,10 +34,8 @@ that integrates **case-based learning** and multimedia **anchored instruction.**
   </div>
   <div class="col-md-3" markdown="0">
     <blockquote class="text-muted text-center">
-      CTELL users create multimedia bookmarks "clipped"
-      from cases to
-      demonstrate their understanding of early literacy
-      pedagogy.
+      CTELL users create multimedia bookmarks "clipped" from cases to demonstrate 
+      their understanding of early literacy pedagogy.
     </blockquote>
   </div>
 </div>

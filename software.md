@@ -1,7 +1,7 @@
 ---
 title: "Selected Software Projects::Matthew X. Curinga"
 excerpt: "Portfolio of selected software and instructional design projects."
-sitemap: true
+sitemap: false
 layout: default
 permalink: /software.html
 id: software
