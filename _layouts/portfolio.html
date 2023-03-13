@@ -47,17 +47,33 @@ https://matt.curinga.com
   <div id="main" class="container">
     <div class="row">
       <div class="col-md-4">
-        <div class="d-flex flex-wrap justify-content-between">
-        {% for project in site.data.software | sort:"order" %}
-          {% if project.portfolio == "1" %}
-              <a href="{{project.link}}" class="d-block border rounded-2 col-6"
-              data-bs-toggle="tooltip" data-bs-title="{{project.title}}">
-                <img src="{{project.thumb}}" 
-                class="img-fluid" alt="{{project.alt}}">
-              </a>
+        <ul class="nav nav-tabs d-md-none">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+              aria-expanded="false">Projects</a>
+            <ul class="dropdown-menu">
+              {% for project in site.data.software | sort: "order" %}
+              {% if project.portfolio == "1" %}
+                <li><a class="dropdown-item" href="{{project.link}}">{{project.title}}</a></li>
+              {% endif %}
+              {% endfor %}
+            </ul>
+          </li>
+        </ul>
+
+
+        <div class="d-md-block d-none">
+          <h2 class="h4 bg-dark text-light text-center mb-0">Projects</h2>
+          <div class="d-flex flex-wrap justify-content-between">
+            {% for project in site.data.software | sort: "order" %}
+            {% if project.portfolio == "1" %}
+            <a href="{{project.link}}" class="d-block border rounded-2 col-6"
+               data-bs-toggle="tooltip" data-bs-title="{{project.title}}">
+              <img src="{{project.thumb}}" class="img-fluid" alt="{{project.alt}}"></a>
             {% endif %}
-        {% endfor %}
-      </div>
+            {% endfor %}
+          </div>
+        </div>
       </div>
       <div class="col-md-8">
         <section id="content" class="">
