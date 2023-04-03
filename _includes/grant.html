@@ -1,0 +1,12 @@
+{% for work in include.grants %}
+<div class="row">
+<div class="col-3 text-end">
+<strong>{{work.date}}</strong>
+<div class="text-muted">{{work.amount}}</div>
+</div>
+<div class="col" markdown="1">
+<strong>{{work.title}}.</strong> <em>{{work.inst}}.</em>
+{{work.researchers}}
+</div>
+</div>
+{% endfor %}

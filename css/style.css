@@ -1,3 +1,80 @@
+
+@font-face {
+    font-family: 'Source Sans Pro Black Italic';
+    src: url('Source_Sans_Pro/SourceSansPro-BlackItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Black';
+    src: url('Source_Sans_Pro/SourceSansPro-Black.ttf') format('truetype');
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Bold Italic';
+    src: url('Source_Sans_Pro/SourceSansPro-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Bold';
+    src: url('Source_Sans_Pro/SourceSansPro-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro ExtraLight Italic';
+    src: url('Source_Sans_Pro/SourceSansPro-ExtraLightItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro ExtraLight';
+    src: url('Source_Sans_Pro/SourceSansPro-ExtraLight.ttf') format('truetype');
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Italic';
+    src: url('Source_Sans_Pro/SourceSansPro-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Light Italic';
+    src: url('Source_Sans_Pro/SourceSansPro-LightItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Light';
+    src: url('Source_Sans_Pro/SourceSansPro-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro Regular';
+    src: url('Source_Sans_Pro/SourceSansPro-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Source Sans Pro SemiBold Italic';
+    src: url('Source_Sans_Pro/SourceSansPro-SemiBoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro SemiBold';
+    src: url('Source_Sans_Pro/SourceSansPro-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+}
+
 * { line-height: 1.25em; }
 body { padding-top: 70px; }
 
@@ -14,56 +91,42 @@ address
 {
     max-width: 900px;
 }
+.resume.container {
+    max-width: 1024px;
+    padding: 2em;
+}
 .portfolio .container
 {
     max-width: 1200px;
 }
 
-.spinner
+.contact-links a {
+    text-decoration: none;
+}
+
+.resume-title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}
+.resume-goal
 {
-  text-align: center;
-  line-height: 6em;
-  padding-top: 2em;
-}
-
-dt { margin-top: .25em; }
-dd {
-  margin-bottom: 0;
-  padding-bottom: 0;
-  margin-left: 1em; 
-}
-
-code.tag
-{
-  margin-top: .5em;
-  display: inline-block;
-}
-
-@media (min-width:768px) {
-  dt {
-      margin-top: 0;
-      float: left;
-      width: 160px;
-      overflow: hidden;
-      clear: left;
-      text-align: right;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-  }
-  dd {
-      margin-left: 180px;
-  }
+    font-size: 1.5em;
+    max-width: 400px;
+    font-style: italic;
+    margin: 0 auto;
 }
 
 
-h1 { font-size: 160%;}
-h2 { font-size: 130%; text-transform: uppercase; margin-top: 2em;}
-h3 { font-size: 120%; font-weight: bold; margin-top: 1em;}
+h1 { font-family:"Source Sans Pro"; font-size: 2rem; font-weight: 900; }
+h2 { font-family:"Source Sans Pro"; font-size: 1.3rem; font-weight: 900;  text-transform: uppercase; margin-top: 2em;}
+h3 { font-family:"Source Sans Pro"; font-size: 1.2rem; font-weight: bold; margin-top: 1em;}
 
-h1, h2, h3, h4, h5, .lead
-{
-    font-family: 'Source Sans Pro', sans-serif;
-}
+.resume h2 { font-size: 1.2rem; }
+.resume h3 { font-size: 1rem; text-transform: none;}
 
 .mono, a.navbar-brand, .nav-link
 {
@@ -118,11 +181,20 @@ div.break { display: none; }
 
 @media print
 {
-  .container {
-    width: auto;
-  }
+    .container {
+        width: auto;
+        /* background-color: white !important; */
+    }
+    
+    .MainCol {
+        width: 70%;
+        float: left;
+    }
 
-    @charset "UTF-8";
+    .SkillCol {
+        float: right;
+    }
+
 
     /** { color: black !important; }*/
 

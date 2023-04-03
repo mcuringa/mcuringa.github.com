@@ -194,22 +194,15 @@ _{{work.desc}}_
 {% endfor %}
 
 
-Grants & Funded Research
--------------------------------
+Funded Grants
+-------------
+{% assign funded = site.data.grants | where: "funded", "1" %}
+{% include grant.html grants=funded %}
 
-{% for work in site.data.grants %}
-<div class="row" markdown="0">
-<div class="col-3 text-end">
-<strong>{{work.date}}</strong>
-<div class="text-muted">{{work.amount}}<p>{{work.funded}}</p></div>
-</div>
-<div class="col" markdown="1">
-<strong>{{work.title}}</strong>  
-_{{work.inst}}_  
-{{work.researchers}}
-</div>
-</div>
-{% endfor %}
+Unfunded Grant Applications
+---------------------------
+{% assign unfunded = site.data.grants | where: "funded", "0" %}
+{% include grant.html grants=unfunded %}
 
 Awards & Honors
 ---------------
