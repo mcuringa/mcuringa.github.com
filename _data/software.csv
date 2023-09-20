@@ -1,5 +1,5 @@
 order,date,title,desc,tech,role,link,thumb,cv,portfolio
-1,2022-present,nycschools,Open source python library to analyze public school data,python – pandas,lead developer,/software/nycschools.html,/img/portfolio/nycschools/thumb.png,1,1
+1,2022-present,[nycschools](https://adelphi-ed-tech.github.io/nycschools/),Open source python library to analyze public school data,python – pandas,lead developer,/software/nycschools.html,/img/portfolio/nycschools/thumb.png,1,1
 3,2014-2017,PyTutor,Social/peer learning for computer science problems,python – django,lead developer,/software/pytutor.html,/img/portfolio/pytutor/thumb.png,1,1
 4,various,WordPress,"Wordpress information design, themes, and plug-ins",wordpress - php - html/css,various,/software/wordpress.html,/img/portfolio/wp/thumb.png,0,1
 2,2018,Peer Challenge,Mobile app to support peer-to-peer learning,javascript – react - node,lead developer,/software/peer-challenge.html,/img/portfolio/un-peer/thumb.png,1,1
