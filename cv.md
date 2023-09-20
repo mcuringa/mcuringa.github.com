@@ -52,9 +52,8 @@ Academic positions
   </div>
 <div class="col" markdown="1">
 **[Adelphi University](http://education.adelphi.edu/)**  
-Program in Educational Technology, College of Education and Health Sciences
+College of Education and Health Sciences
 Associate Professor, 2016-present  
-Program Director, 2011-2014, 2016-present  
 Assistant Professor, 2010-2016  
 </div>
 </div>
@@ -222,6 +221,21 @@ Awards & Honors
 </div>
 {% endfor %}
 
+Professional service & Volunteer Work
+-------------------------------------
+{% for work in site.data.service %}
+<div class="row" markdown="0">
+<div class="col-3 text-end">
+<strong>{{work.date}}</strong>
+<p class="text-muted">{{work.place}}</p>
+</div>
+<div class="col" markdown="1">
+<strong>{{work.title}}</strong>  
+{{work.job}}  
+</div>
+</div>
+{% endfor %}
+
 Courses Taught
 --------------
 
@@ -230,8 +244,8 @@ Courses Taught
 |------------------------------------------------------------------------------------------------------------------------|--------------------|
 |------------------------------------------------------------------------------------------------------------------------+--------------------+
 | _Adelphi University, Dept of Math & Comp Science_                                                                      |campus              |
-| Computer programming for con-majors (undergraduate)                                                                    |campus              |
-| [Introduction to computer programming](https://adelphi-ed-tech.github.io/au-courses/intro-to-programming.html)         |online, campus      |
+| Computer programming for non-majors (undergraduate)                                                                    |campus              |
+| [Introduction to computer programming](https://adelphi-ed-tech.github.io/au-courses/intro-to-programming_python.html)         |online, campus      |
 | _Adelphi University, College of Education & Health Sciences_                                                           |                    |
 | [Digital literacies](https://adelphi-ed-tech.github.io/au-courses/digital-literacies.html)                             |online              |
 | [Educational information systems and networks](https://adelphi-ed-tech.github.io/au-courses/school-networks.html)      |online, campus      |
@@ -256,12 +270,12 @@ Courses Taught
 |------------------------------------------------------------------------------------------------------------------------+--------------------+
 {: #courses-taught .table .table-hover .table-sm }
 
-Integrative Masters Projects (directed)
----------------------------------------
+Integrative Masters Projects & Theses (directed)
+------------------------------------------------
 {% for work in site.data.theses %}
 <div class="row" markdown="0">
   <div class="col-3 text-end"><strong>{{work.date}}</strong></div>
-  <div class="col"><p>{{work.authors}}, "{{work.title}}"</p></div>
+  <div class="col"><p>{{work.authors}}, <em>{{work.title}}</em></p></div>
 </div>
 {% endfor %}
 
@@ -307,23 +321,6 @@ Work Experience
 </div>
 </div>
 {% endfor %}
-
-Professional service & Volunteer Work
--------------------------------------
-{% for work in site.data.service %}
-<div class="row" markdown="0">
-<div class="col-3 text-end">
-<strong>{{work.date}}</strong>
-<p class="text-muted">{{work.place}}</p>
-</div>
-<div class="col" markdown="1">
-<strong>{{work.title}}</strong>  
-{{work.job}}  
-</div>
-</div>
-{% endfor %}
-
-
 
 Skills
 -----------------------------------------
