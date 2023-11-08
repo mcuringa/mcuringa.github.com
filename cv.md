@@ -74,7 +74,7 @@ Adjunct Instructor
 
 Refereed articles & proceedings
 -------------------------------
-Saravanos, A., & **Curinga, M.** (under review). Simulating the Software Development Lifecycle: The Waterfall Model. <https://doi.org/10.48550/ARXIV.2308.03940>
+Saravanos, A., & **Curinga, M.** (in press). Simulating the Software Development Lifecycle: The Waterfall Model. _Software_.
 
 Curinga, R., Raña, R., **Curinga, M.**, & Maryutina, E. (under review). Assessing and placing emergent bilinguals in U.S. schools: Findings from field interviews. _International journal of bilingual education and bilingualism._
 
