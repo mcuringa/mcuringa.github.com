@@ -74,10 +74,9 @@ Adjunct Instructor
 
 Refereed articles & proceedings
 -------------------------------
-Saravanos, A., & **Curinga, M.** (in press). Simulating the Software Development Lifecycle: The Waterfall Model. _Software_.
-
 Curinga, R., Raña, R., **Curinga, M.**, & Maryutina, E. (under review). Assessing and placing emergent bilinguals in U.S. schools: Findings from field interviews. _International journal of bilingual education and bilingualism._
 
+Saravanos, A., & **Curinga, M.** (2023). [Simulating the Software Development Lifecycle: The Waterfall Model](https://doi.org/10.3390/asi6060108). _Applied System Innovation_, _6_(6), 108.
 
 **Curinga, M.** (2016). [The MOOC and the Multitude](http://dx.doi.org/10.1111/edth.12171). _Educational Theory_, _66_(3), 369–387.
 
@@ -97,6 +96,8 @@ Book chapters
 
 Refereed conference papers & presentations
 ------------------------------------------
+**Curinga, M.** (2024, accepted) Online Platforms and Code/Space: Increasing Access and Equity in Computer Science Education. _The 2024 Annual Meeting of the American Education Research Association_, Philadelphia, PA, April 11-14, 2024.
+
 **Curinga, M.** (2023). Protocol: A Constructionist game for teaching computing and adapted design in the Maker Lab. _The 2023 Annual Meeting of the American Education Research Association_, Chicago, IL, April 13-16, 2023.
 
 **Curinga, M.**, Johnson, T., Sahabir, K., Wilcox, R., Choi, H., and Saravanos, A. (2023). Learning Python and data science with NYC Schools Open Data Portal. _NYC Open Data Week 2023_, New York, NY, March 11-18, 2023.
@@ -143,6 +144,8 @@ Book Reviews
 
 Other Talks & Papers
 -------------------------------
+**Curinga, M.** [symposium chair] (2024, accepted). Space, place and learning: The material conditions of education equity. _The 2024 Annual Meeting of the American Education Research Association_, Philadelphia, PA, April 11-14, 2024.
+
 **Curinga, M.** (2016). Handbook of Research on Mobile Learning in Contemporary Classrooms, with Dominic Mentor & Contributors [panel discussion]. _Teachers College, Columbia University_. October 24, New York.
 
 **Curinga, M.** [symposium chair] (2013). The Poverty of Cognitive Capitalism. _The 2013 Annual Meeting of the American Education Research Association_, San Francisco, April 27 - May 1, 2013.
