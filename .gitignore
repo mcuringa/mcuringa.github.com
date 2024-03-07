@@ -4,3 +4,4 @@ _site
 .jekyll-metadata
 vendor
 mxc.code-workspace
+.vscode
