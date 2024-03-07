@@ -148,10 +148,6 @@ Kinzer, C. and **Curinga, M.** (2007) STEPS+G: A Framework for Multiple Perspect
 
 Arora, P., **Curinga, M.**, and Kaun, K. (2006) STEPS to Literacy: Using First Language to Facilitate Second Language Writing through an Innovative Literacy Software Tool. _Association of Latin American Scholars (ALAS) 4th Annual Education Across the Americas Graduate Student Conference._ Teachers College, March 31 &; April 1, 2006.
 
-Books
------
-De Freitas, E., Curinga, M. X., Roman-Dixon, E., & Webb, T. (Eds.). (under review). Learning Under Algorithmic Conditions. University of Minnesota Press.
-
 
 Book Reviews
 -------------------------------
