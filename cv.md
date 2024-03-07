@@ -104,7 +104,9 @@ Book chapters
 
 Refereed conference papers & presentations
 ------------------------------------------
-**Curinga, M.** (2024, accepted) Online Platforms and Code/Space: Increasing Access and Equity in Computer Science Education. _The 2024 Annual Meeting of the American Education Research Association_, Philadelphia, PA, April 11-14, 2024.
+**Curinga, M.** (2024) Online Platforms and Code/Space: Increasing Access and Equity in Computer Science Education. _The 2024 Annual Meeting of the American Education Research Association_, Philadelphia, PA, April 11-14, 2024.
+
+**Curinga, M.** and Grier, J. (2024). Mapping open school and census data in New York City. _NYC Open Data Week 2024_, New York, NY, March 16-24, 2024.
 
 **Curinga, M.** (2023). Protocol: A Constructionist game for teaching computing and adapted design in the Maker Lab. _The 2023 Annual Meeting of the American Education Research Association_, Chicago, IL, April 13-16, 2023.
 
