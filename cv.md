@@ -74,6 +74,10 @@ Adjunct Instructor
 
 Refereed articles & proceedings
 -------------------------------
+Uttamchandani, S., **Curinga, M.**, & Drew, J. (in press, 2024). Cartographic Syntonicity as a Tool for Equitable Computer Science Education. _Proceedings of the Fourth Annual Meeting of the International Society of the Learning Sciences_.
+
+**Curinga, M.**, & De Freitas, E. (under review). Computational Thinking and the Infant Mind: Towards the New Empiricisms of Software Studies. _Learning, Media and Technology._
+
 Curinga, R., Raña, R., **Curinga, M.**, & Maryutina, E. (under review). Assessing and placing emergent bilinguals in U.S. schools: Findings from field interviews. _International journal of bilingual education and bilingualism._
 
 Saravanos, A., & **Curinga, M.** (2023). [Simulating the Software Development Lifecycle: The Waterfall Model](https://doi.org/10.3390/asi6060108). _Applied System Innovation_, _6_(6), 108.
@@ -89,6 +93,10 @@ Battaglia, D., **Curinga, M.**, Minicozzi, L., Vaughn-Shavuo, F., McCarthy, M. J
 **Curinga, M.** (2014). [Critical analysis of interactive media with software affordances](http://firstmonday.org/ojs/index.php/fm/article/view/4757). _First Monday_, _19_(9).
 
 Sullivan, I., Garrison, J. R., & **Curinga, M.** (2011). Wikiotics: the interactive language instruction Wiki. _Proceedings of the 7th International Symposium on Wikis and Open Collaboration_ (pp. 223–224).
+
+Books
+-----
+De Freitas, E., **Curinga, M.**, Dixon-Román, E., & Webb, T. (Eds.). (under review). _Learning Under Algorithmic Conditions_. University of Minnesota Press.
 
 Book chapters
 -------------
@@ -137,6 +145,11 @@ Kleifgen, J., **Curinga, M.**, and Kaun, K. (2007) Multimodal Resources for Writ
 Kinzer, C. and **Curinga, M.** (2007) STEPS+G: A Framework for Multiple Perspectives to Enrich Latino Students&#8217; Academic Writing. _The 2007 Annual Meeting of the American Education Research Association_. Chicago.
 
 Arora, P., **Curinga, M.**, and Kaun, K. (2006) STEPS to Literacy: Using First Language to Facilitate Second Language Writing through an Innovative Literacy Software Tool. _Association of Latin American Scholars (ALAS) 4th Annual Education Across the Americas Graduate Student Conference._ Teachers College, March 31 &; April 1, 2006.
+
+Books
+-----
+De Freitas, E., Curinga, M. X., Roman-Dixon, E., & Webb, T. (Eds.). (under review). Learning Under Algorithmic Conditions. University of Minnesota Press.
+
 
 Book Reviews
 -------------------------------
