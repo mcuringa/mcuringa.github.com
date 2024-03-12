@@ -74,6 +74,10 @@ Adjunct Instructor
 
 Refereed articles & proceedings
 -------------------------------
+Uttamchandani, S., **Curinga, M.**, & Drew, J. (in press, 2024). Cartographic Syntonicity as a Tool for Equitable Computer Science Education. _Proceedings of the Fourth Annual Meeting of the International Society of the Learning Sciences_.
+
+**Curinga, M.**, & De Freitas, E. (under review). Computational Thinking and the Infant Mind: Towards the New Empiricisms of Software Studies. _Learning, Media and Technology._
+
 Curinga, R., Raña, R., **Curinga, M.**, & Maryutina, E. (under review). Assessing and placing emergent bilinguals in U.S. schools: Findings from field interviews. _International journal of bilingual education and bilingualism._
 
 Saravanos, A., & **Curinga, M.** (2023). [Simulating the Software Development Lifecycle: The Waterfall Model](https://doi.org/10.3390/asi6060108). _Applied System Innovation_, _6_(6), 108.
@@ -90,13 +94,19 @@ Battaglia, D., **Curinga, M.**, Minicozzi, L., Vaughn-Shavuo, F., McCarthy, M. J
 
 Sullivan, I., Garrison, J. R., & **Curinga, M.** (2011). Wikiotics: the interactive language instruction Wiki. _Proceedings of the 7th International Symposium on Wikis and Open Collaboration_ (pp. 223–224).
 
+Books
+-----
+De Freitas, E., **Curinga, M.**, Dixon-Román, E., & Webb, T. (Eds.). (under review). _Learning Under Algorithmic Conditions_. University of Minnesota Press.
+
 Book chapters
 -------------
-**Curinga, M.**, & Saravanos, A. (2016). [Mobile First Instructional Design](https://amzn.com/1522502513). In D. Mentor (Ed.), _Handbook of Research on Mobile Learning in Contemporary Classrooms_. IGI Global.
+**Curinga, M.**, & Saravanos, A. (2016). [Mobile First Instructional Design](https://www.igi-global.com/book/handbook-research-mobile-learning-contemporary/143639). In D. Mentor (Ed.), _Handbook of Research on Mobile Learning in Contemporary Classrooms_. IGI Global.
 
 Refereed conference papers & presentations
 ------------------------------------------
-**Curinga, M.** (2024, accepted) Online Platforms and Code/Space: Increasing Access and Equity in Computer Science Education. _The 2024 Annual Meeting of the American Education Research Association_, Philadelphia, PA, April 11-14, 2024.
+**Curinga, M.** (2024) Online Platforms and Code/Space: Increasing Access and Equity in Computer Science Education. _The 2024 Annual Meeting of the American Education Research Association_, Philadelphia, PA, April 11-14, 2024.
+
+**Curinga, M.** and Geier, J. (2024). Mapping open school and census data in New York City. _NYC Open Data Week 2024_, New York, NY, March 16-24, 2024.
 
 **Curinga, M.** (2023). Protocol: A Constructionist game for teaching computing and adapted design in the Maker Lab. _The 2023 Annual Meeting of the American Education Research Association_, Chicago, IL, April 13-16, 2023.
 
@@ -138,9 +148,10 @@ Kinzer, C. and **Curinga, M.** (2007) STEPS+G: A Framework for Multiple Perspect
 
 Arora, P., **Curinga, M.**, and Kaun, K. (2006) STEPS to Literacy: Using First Language to Facilitate Second Language Writing through an Innovative Literacy Software Tool. _Association of Latin American Scholars (ALAS) 4th Annual Education Across the Americas Graduate Student Conference._ Teachers College, March 31 &; April 1, 2006.
 
+
 Book Reviews
 -------------------------------
-**Curinga, M.** (2011). [[Review of the book _Good Faith Collaboration: The Culture of Wikipedia_](http://www.tcrecord.org/books/abstract.asp?ContentId=16367)]. _Teachers College Record_.
+**Curinga, M.** (2011). [Review of the book _Good Faith Collaboration: The Culture of Wikipedia_]. _Teachers College Record_.
 
 Other Talks & Papers
 -------------------------------
