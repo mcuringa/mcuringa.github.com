@@ -94,10 +94,6 @@ Battaglia, D., **Curinga, M.**, Minicozzi, L., Vaughn-Shavuo, F., McCarthy, M. J
 
 Sullivan, I., Garrison, J. R., & **Curinga, M.** (2011). Wikiotics: the interactive language instruction Wiki. _Proceedings of the 7th International Symposium on Wikis and Open Collaboration_ (pp. 223–224).
 
-Books
------
-De Freitas, E., **Curinga, M.**, Dixon-Román, E., & Webb, T. (Eds.). (under review). _Learning Under Algorithmic Conditions_. University of Minnesota Press.
-
 Book chapters
 -------------
 **Curinga, M.**, & Saravanos, A. (2016). [Mobile First Instructional Design](https://www.igi-global.com/book/handbook-research-mobile-learning-contemporary/143639). In D. Mentor (Ed.), _Handbook of Research on Mobile Learning in Contemporary Classrooms_. IGI Global.
