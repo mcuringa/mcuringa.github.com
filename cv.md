@@ -156,7 +156,7 @@ Book Reviews
 
 Other Talks & Papers
 -------------------------------
-**Curinga, M.** [symposium chair] (2024, accepted). Space, place and learning: The material conditions of education equity. _The 2024 Annual Meeting of the American Education Research Association_, Philadelphia, PA, April 11-14, 2024.
+**Curinga, M.** [Panelist] (2024). Project Invent Demo Day X. _Project Invent_, New York, NY, May 31, 2024.
 
 **Curinga, M.** (2016). Handbook of Research on Mobile Learning in Contemporary Classrooms, with Dominic Mentor & Contributors [panel discussion]. _Teachers College, Columbia University_. October 24, New York.
 
