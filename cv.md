@@ -190,6 +190,15 @@ White papers, working papers, technical reports, etc
 
 **Curinga, M.** (2009). Web 2.0 and Learning: a review of literature. Technical report prepared for the [Intel Strategy, Research and Assessment Team](http://www.intel.com/EDUCATION/).
 
+Works in progress
+-----------------
+Curinga, M. X., & de Freitas, E. (under review). Computational Thinking and the Infant Mind: Towards the New Empiricisms of Software Studies. Learning, Media and Technology.
+
+Curinga, M. X., Uttamchandani, S., & Drew, J. (under review). Examining the role of spatial justice in framing non-majors’ experiences with undergraduate computing. _The Technical Symposium 2025 on Computer Science Education_. Pittsburgh, Pennsylvania, Wed 26 February - Sat 1 March 2025.
+
+de Freitas, E., & Curinga, M. X. (in preparation). How the concept of racial entropy came to shape our ideas about segregation: Exposing the cybernetic assumptions in demographic models.
+
+
 </div>
 
 Software works
@@ -260,15 +269,16 @@ Courses Taught
 |------------------------------------------------------------------------------------------------------------------------+--------------------+
 | _Adelphi University, Dept of Math & Comp Science_                                                                      |campus              |
 | Computer programming for non-majors (undergraduate)                                                                    |campus              |
-| [Introduction to computer programming](https://adelphi-ed-tech.github.io/au-courses/intro-to-programming_python.html)         |online, campus      |
+| [Introduction to computer programming](https://adelphi-ed-tech.github.io/au-courses/intro-to-programming_python.html)  |online, campus      |
 | _Adelphi University, College of Education & Health Sciences_                                                           |                    |
 | [Digital literacies](https://adelphi-ed-tech.github.io/au-courses/digital-literacies.html)                             |online              |
 | [Educational information systems and networks](https://adelphi-ed-tech.github.io/au-courses/school-networks.html)      |online, campus      |
 | [Educators multimedia studio](https://adelphi-ed-tech.github.io/au-courses/multimedia-studio.html)                     |hybrid, online      |
 | [Foundations of open education](https://adelphi-ed-tech.github.io/au-courses/open-ed.html)                             |hybrid              |
 | [Learning with video games](https://adelphi-ed-tech.github.io/au-courses/video-games.html)                             |campus              |
+| [Maker Lab 1: Equity lab](https://adelphi-ed-tech.github.io/au-courses/design-lab.html)                                |campus              |
 | Maker Lab 2: Equity lab                                                                                                |campus, hybrid      |
-| Maker Lab 3: School lab                                                                                                |campus, hybrid      |
+| [Maker Lab 3: School lab  ](https://adelphi-ed-tech.github.io/au-courses/maker3/)                                      |campus, hybrid      |
 | [Mobile learning](https://adelphi-ed-tech.github.io/au-courses/mlearning.html)                                         |hybrid              |
 | [Online learning](https://adelphi-ed-tech.github.io/au-courses/online-ed.html)                                         |hybrid              |
 | [Research & evaluation of ed tech](https://adelphi-ed-tech.github.io/au-courses/research-seminar.html)                 |campus              |
