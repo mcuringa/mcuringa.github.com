@@ -192,11 +192,11 @@ White papers, working papers, technical reports, etc
 
 Works in progress
 -----------------
-Curinga, M. X., & de Freitas, E. (under review). Computational Thinking and the Infant Mind: Towards the New Empiricisms of Software Studies. Learning, Media and Technology.
+**Curinga, M.**, & de Freitas, E. (under review). Computational Thinking and the Infant Mind: Towards the New Empiricisms of Software Studies. _Learning, Media and Technology_.
 
-Curinga, M. X., Uttamchandani, S., & Drew, J. (under review). Examining the role of spatial justice in framing non-majors’ experiences with undergraduate computing. _The Technical Symposium 2025 on Computer Science Education_. Pittsburgh, Pennsylvania, Wed 26 February - Sat 1 March 2025.
+**Curinga, M.**, Uttamchandani, S., & Drew, J. (under review). Examining the role of spatial justice in framing non-majors’ experiences with undergraduate computing. _The Technical Symposium 2025 on Computer Science Education_. Pittsburgh, Pennsylvania, Wed 26 February - Sat 1 March 2025.
 
-de Freitas, E., & Curinga, M. X. (in preparation). How the concept of racial entropy came to shape our ideas about segregation: Exposing the cybernetic assumptions in demographic models.
+de Freitas, E., & **Curinga, M.** (in preparation). How the concept of racial entropy came to shape our ideas about segregation: Exposing the cybernetic assumptions in demographic models.
 
 
 </div>
