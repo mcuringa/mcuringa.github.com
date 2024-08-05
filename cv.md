@@ -101,6 +101,8 @@ De Freitas, E., **Curinga, M.**, Roman-Dixon, E., & Webb, T. (Eds.). (in press).
 
 Book chapters
 -------------
+**Curinga, M.** (in press). Learning, Algorithms and Computational Thinking. In E. de Freitas, M. Curinga, E. Roman-Dixon, & T. Webb (Eds.), _Learning Under Algorithmic Conditions_. University of Minnesota Press.
+
 **Curinga, M.**, & Saravanos, A. (2016). [Mobile First Instructional Design](https://www.igi-global.com/book/handbook-research-mobile-learning-contemporary/143639). In D. Mentor (Ed.), _Handbook of Research on Mobile Learning in Contemporary Classrooms_. IGI Global.
 
 Refereed conference papers & presentations
