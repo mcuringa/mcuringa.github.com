@@ -98,7 +98,6 @@ Books
 -----
 De Freitas, E., **Curinga, M.**, Roman-Dixon, E., & Webb, T. (Eds.). (in press). _Learning Under Algorithmic Conditions_. University of Minnesota Press.
 
-
 Book chapters
 -------------
 **Curinga, M.** (in press). Learning, Algorithms and Computational Thinking. In E. de Freitas, M. Curinga, E. Roman-Dixon, & T. Webb (Eds.), _Learning Under Algorithmic Conditions_. University of Minnesota Press.
@@ -107,6 +106,10 @@ Book chapters
 
 Refereed conference papers & presentations
 ------------------------------------------
+Curinga, R., Hung, A. C. Y., & **Curinga, M.** (accepted). ChatGPT Translanguaging for multilingual learners. _The American Association for Applied Linguistics (AAAL) 2025_. Denver, Colorado, March 22-25, 2025.
+
+**Curinga, M.** & de Freitas, E. (2024). Computational Thinking and the Infant Mind: Towards the New Empiricisms of Software Studies. _The 12th International Conference On Feminist New Materialisms_, Dublin, Ireland, August 26-28, 2024.
+
 **Curinga, M.** (2024) Online Platforms and Code/Space: Increasing Access and Equity in Computer Science Education. _The 2024 Annual Meeting of the American Education Research Association_, Philadelphia, PA, April 11-14, 2024.
 
 **Curinga, M.** and Geier, J. (2024). Mapping open school and census data in New York City. _NYC Open Data Week 2024_, New York, NY, March 16-24, 2024.
