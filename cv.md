@@ -74,17 +74,18 @@ Adjunct Instructor
 
 Refereed articles & proceedings
 -------------------------------
-Uttamchandani, S., **Curinga, M.**, & Drew, J. (in press, 2024). Cartographic Syntonicity as a Tool for Equitable Computer Science Education. _Proceedings of the Fourth Annual Meeting of the International Society of the Learning Sciences_.
 
 **Curinga, M.**, & De Freitas, E. (under review). Computational Thinking and the Infant Mind: Towards the New Empiricisms of Software Studies. _Learning, Media and Technology._
 
 Curinga, R., Raña, R., **Curinga, M.**, & Maryutina, E. (under review). Assessing and placing emergent bilinguals in U.S. schools: Findings from field interviews. _International journal of bilingual education and bilingualism._
 
-Saravanos, A., & **Curinga, M.** (2023). [Simulating the Software Development Lifecycle: The Waterfall Model](https://doi.org/10.3390/asi6060108). _Applied System Innovation_, _6_(6), 108.
+Uttamchandani, S., **Curinga, M. X.**, & Drew, J. (2024). Cartographic Syntonicity as a Tool for Equitable Computer Science Education. In Lindgren, R., Asino, T. I., Kyza, E. A., Looi, C. K., Keifert, D. T., & Suárez, E. (Eds.), _Proceedings of the 18th International Conference of the Learning Sciences - ICLS 2024_ (pp. 1327-1330). International Society of the Learning Sciences. <https://doi.org/10.22318/icls2024.796467>
 
-**Curinga, M.** (2016). [The MOOC and the Multitude](http://dx.doi.org/10.1111/edth.12171). _Educational Theory_, _66_(3), 369–387.
+Saravanos, A., & **Curinga, M.** (2023). Simulating the Software Development Lifecycle: The Waterfall Model. _Applied System Innovation_, _6_(6), 108. <https://doi.org/10.3390/asi6060108>
 
-De Freitas, E., & **Curinga, M.** (2015). [New materialist approaches to the study of language and identity: Assembling the posthuman subject](http://doi.org/10.1080/03626784.2015.1031059). _Curriculum Inquiry_, _45_(3), 249–265.
+**Curinga, M.** (2016). The MOOC and the Multitude. _Educational Theory_, _66_(3), 369–387. <http://dx.doi.org/10.1111/edth.12171>
+
+De Freitas, E., & **Curinga, M.** (2015). New materialist approaches to the study of language and identity: Assembling the posthuman subject. _Curriculum Inquiry_, _45_(3), 249–265. <http://doi.org/10.1080/03626784.2015.1031059>
 
 **Curinga, M.**, & Auchter, K. (2015). [Designing PyTutor: A Social Tutor to Support Computer Science Education Through Collaborative Study](https://www.isls.org/cscl2015/papers/CSCL2015ProceedingsVolume2.pdf). In Lindwall, P. Häkkinen, T. Koschman, P. Tchounikine, & S. Ludvigsen (Eds.), _Exploring the Material Conditions of Learning: The Computer Supported Collaborative Learning (CSCL) Conference 2015_ (Vol. 2, pp. 833–834). Gothenburg, Sweden: _The International Society of the Learning Sciences_.
 
