@@ -52,7 +52,8 @@ https://matt.curinga.com
             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
               aria-expanded="false">Projects</a>
             <ul class="dropdown-menu">
-              {% for project in site.data.software | sort: "order" %}
+              {% assign projects = site.data.software | sort: "order" %}
+              {% for project in projects %}
               {% if project.portfolio == "1" %}
                 <li><a class="dropdown-item" href="{{project.link}}">{{project.title}}</a></li>
               {% endif %}
@@ -65,7 +66,8 @@ https://matt.curinga.com
         <div class="d-md-block d-none">
           <h2 class="h4 bg-dark text-light text-center mb-0">Projects</h2>
           <div class="d-flex flex-wrap justify-content-between">
-            {% for project in site.data.software | sort: "order" %}
+            {% assign projects = site.data.software | sort: "order" %}
+            {% for project in projects %}
             {% if project.portfolio == "1" %}
             <a href="{{project.link}}" class="d-block border rounded-2 col-6"
                data-bs-toggle="tooltip" data-bs-title="{{project.title}}">

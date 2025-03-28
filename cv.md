@@ -83,16 +83,13 @@ Adjunct Instructor
 
 Refereed articles & proceedings
 -------------------------------
-
-Curinga, R., Raña, R., Curinga, M., & Maryutina, E. (under review). Assessing and placing emergent bilinguals in U.S. schools: Findings from field interviews. _International journal of bilingual education and bilingualism._
-
 Uttamchandani, S., Curinga, M., & Drew, J. (2024). Cartographic Syntonicity as a Tool for Equitable Computer Science Education. In Lindgren, R., Asino, T. I., Kyza, E. A., Looi, C. K., Keifert, D. T., & Suárez, E. (Eds.), _Proceedings of the 18th International Conference of the Learning Sciences - ICLS 2024_ (pp. 1327-1330). International Society of the Learning Sciences. <https://doi.org/10.22318/icls2024.796467>
 
 Saravanos, A., & Curinga, M. (2023). Simulating the Software Development Lifecycle: The Waterfall Model. _Applied System Innovation_, _6_(6), 108. <https://doi.org/10.3390/asi6060108>
 
 Curinga, M. (2016). The MOOC and the Multitude. _Educational Theory_, _66_(3), 369–387. <http://dx.doi.org/10.1111/edth.12171>
 
-De Freitas, E., & Curinga, M. (2015). New materialist approaches to the study of language and identity: Assembling the posthuman subject. _Curriculum Inquiry_, _45_(3), 249–265. <http://doi.org/10.1080/03626784.2015.1031059>
+de Freitas, E., & Curinga, M. (2015). New materialist approaches to the study of language and identity: Assembling the posthuman subject. _Curriculum Inquiry_, _45_(3), 249–265. <http://doi.org/10.1080/03626784.2015.1031059>
 
 Curinga, M., & Auchter, K. (2015). [Designing PyTutor: A Social Tutor to Support Computer Science Education Through Collaborative Study](https://www.isls.org/cscl2015/papers/CSCL2015ProceedingsVolume2.pdf). In Lindwall, P. Häkkinen, T. Koschman, P. Tchounikine, & S. Ludvigsen (Eds.), _Exploring the Material Conditions of Learning: The Computer Supported Collaborative Learning (CSCL) Conference 2015_ (Vol. 2, pp. 833–834). Gothenburg, Sweden: _The International Society of the Learning Sciences_.
 
@@ -104,7 +101,7 @@ Sullivan, I., Garrison, J. R., & Curinga, M. (2011). Wikiotics: the interactive 
 
 Books
 -----
-De Freitas, E., Curinga, M., Roman-Dixon, E., & Webb, T. (Eds.). (2025 - in press). _Learning Under Algorithmic Conditions_. University of Minnesota Press.
+de Freitas, E., Curinga, M., Roman-Dixon, E., & Webb, T. (Eds.). (2025 - in press). _Learning Under Algorithmic Conditions_. University of Minnesota Press.
 
 Book chapters
 -------------
@@ -114,6 +111,14 @@ Curinga, M., & Saravanos, A. (2016). [Mobile First Instructional Design](https:/
 
 Refereed conference papers & presentations
 ------------------------------------------
+Curinga, M. (2025) Learning as Computational Thinking. _The 2025 Annual Meeting of the American Education Research Association_, Denver, CO, April 23-27, 2024.
+
+Curinga, M., & de Freitas E. (2025) Mapping Student Flow Through Fragmented School Buildings. _The 2025 Annual Meeting of the American Education Research Association_, Denver, CO, April 23-27, 2024.
+
+de Freitas E., & Curinga, M. (2025) How the concept of racial entropy came to shape ideas about school segregation: A critical analysis of the cybernetic assumptions in school demographic models. _The 2025 Annual Meeting of the American Education Research Association_, Denver, CO, April 23-27, 2024.
+
+Curinga, M., de Freitas, E., Deninno, G., Zhumabaikyzy, A., & Filipek, C. (2025). Visualizing NYC School Colocations. _NYC Open Data Week 2025_, New York, NY, March 16-24, 2024.
+
 Curinga, R., Hung, A. C. Y., & Curinga, M. (2025). ChatGPT Translanguaging for multilingual learners. _The American Association for Applied Linguistics (AAAL) 2025_. Denver, Colorado, March 22-25, 2025.
 
 Curinga, M. & de Freitas, E. (2024). Computational Thinking and the Infant Mind: Towards the New Empiricisms of Software Studies. _The 12th International Conference On Feminist New Materialisms_, Dublin, Ireland, August 26-28, 2024.
@@ -205,18 +210,16 @@ Curinga, M. (2009). Web 2.0 and Learning: a review of literature. Technical repo
 
 Works in progress
 -----------------
+de Freitas, E., & Curinga, M. (under review). How the concept of racial entropy came to shape our ideas about segregation: Exposing the cybernetic assumptions in demographic models.
+
 Curinga, M., & de Freitas, E. (under review). Computational Thinking and the Infant Mind: Towards the New Empiricisms of Software Studies. _Learning, Media and Technology_.
 
-Curinga, M., Uttamchandani, S., & Drew, J. (under review). Examining the role of spatial justice in framing non-majors’ experiences with undergraduate computing. _The Technical Symposium 2025 on Computer Science Education_. Pittsburgh, Pennsylvania, Wed 26 February - Sat 1 March 2025.
-
-de Freitas, E., & Curinga, M. (in preparation). How the concept of racial entropy came to shape our ideas about segregation: Exposing the cybernetic assumptions in demographic models.
-
+Curinga, R., Raña, R., Curinga, M., & Maryutina, E. (under review). Assessing and placing emergent bilinguals in U.S. schools: Findings from field interviews. _International journal of bilingual education and bilingualism._
 
 </div>
 
 Software works
 --------------
-
 {% for work in site.data.software  | sort:"order" %}
 {% if work.cv == "1" %}
 <div class="row" markdown="0">
@@ -237,11 +240,6 @@ Funded Grants
 -------------
 {% assign funded = site.data.grants | where: "funded", "1" %}
 {% include grant.html grants=funded %}
-
-Unfunded Grant Applications
----------------------------
-{% assign unfunded = site.data.grants | where: "funded", "0" %}
-{% include grant.html grants=unfunded %}
 
 Awards & Honors
 ---------------
