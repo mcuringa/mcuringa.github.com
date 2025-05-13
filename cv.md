@@ -278,9 +278,10 @@ Courses Taught
 | Course                                                                                                                 |Format(s)           |
 |------------------------------------------------------------------------------------------------------------------------|--------------------|
 |------------------------------------------------------------------------------------------------------------------------+--------------------+
-| _Adelphi University, Dept of Math & Comp Science_                                                                      |campus              |
+| _Adelphi University, Dept of Math & Comp Science_                                                                      |                    |
 | Computer programming for non-majors (undergraduate)                                                                    |campus              |
-| [Introduction to computer programming](https://adelphi-ed-tech.github.io/au-courses/intro-to-programming_python.html)  |online, campus      |
+| [Introduction to computer programming](https://adelphi-ed-tech.github.io/au-courses/intro-to-programming_python.html)  |campus              |
+| _First Year Seminar:_ Maps That Matter: Exploring Inequality and Place with Code                                        |online, campus      |
 | _Adelphi University, College of Education & Health Sciences_                                                           |                    |
 | [Digital literacies](https://adelphi-ed-tech.github.io/au-courses/digital-literacies.html)                             |online              |
 | [Educational information systems and networks](https://adelphi-ed-tech.github.io/au-courses/school-networks.html)      |online, campus      |
