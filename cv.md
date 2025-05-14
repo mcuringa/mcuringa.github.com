@@ -280,24 +280,24 @@ Courses Taught
 |------------------------------------------------------------------------------------------------------------------------+--------------------+
 | _Adelphi University, Dept of Math & Comp Science_                                                                      |                    |
 | Computer programming for non-majors (undergraduate)                                                                    |campus              |
-| [Introduction to computer programming](https://adelphi-ed-tech.github.io/au-courses/intro-to-programming_python.html)  |campus              |
-| _First Year Seminar:_ Maps That Matter: Exploring Inequality and Place with Code                                        |online, campus      |
+| [Introduction to computer programming](https://mixi.nyc/courses/intro-to-programming)  |campus              |
+| First Year Seminar: Maps That Matter: Exploring Inequality and Place with Code (undergraduate)                         |campus              |
 | _Adelphi University, College of Education & Health Sciences_                                                           |                    |
-| [Digital literacies](https://adelphi-ed-tech.github.io/au-courses/digital-literacies.html)                             |online              |
-| [Educational information systems and networks](https://adelphi-ed-tech.github.io/au-courses/school-networks.html)      |online, campus      |
-| [Educators multimedia studio](https://adelphi-ed-tech.github.io/au-courses/multimedia-studio.html)                     |hybrid, online      |
-| [Foundations of open education](https://adelphi-ed-tech.github.io/au-courses/open-ed.html)                             |hybrid              |
-| [Learning with video games](https://adelphi-ed-tech.github.io/au-courses/video-games.html)                             |campus              |
-| [Maker Lab 1: Equity lab](https://adelphi-ed-tech.github.io/au-courses/design-lab.html)                                |campus              |
+| [Digital literacies](https://mixi.nyc/courses/digital-literacies)                             |online              |
+| [Educational information systems and networks](https://mixi.nyc/courses/school-networks)      |online, campus      |
+| [Educators multimedia studio](https://mixi.nyc/courses/multimedia-studio)                     |hybrid, online      |
+| [Foundations of open education](https://mixi.nyc/courses/open-ed)                             |hybrid              |
+| [Learning with video games](https://mixi.nyc/courses/video-games)                             |campus              |
+| [Maker Lab 1: Equity lab](https://mixi.nyc/courses/design-lab)                                |campus              |
 | Maker Lab 2: Equity lab                                                                                                |campus, hybrid      |
-| [Maker Lab 3: School lab  ](https://adelphi-ed-tech.github.io/au-courses/maker3/)                                      |campus, hybrid      |
-| [Mobile learning](https://adelphi-ed-tech.github.io/au-courses/mlearning.html)                                         |hybrid              |
-| [Online learning](https://adelphi-ed-tech.github.io/au-courses/online-ed.html)                                         |hybrid              |
-| [Research & evaluation of ed tech](https://adelphi-ed-tech.github.io/au-courses/research-seminar.html)                 |campus              |
+| [Maker Lab 3: School lab  ](https://mixi.nyc/courses/maker3/)                                      |campus, hybrid      |
+| [Mobile learning](https://mixi.nyc/courses/mlearning)                                         |hybrid              |
+| [Online learning](https://mixi.nyc/courses/online-ed)                                         |hybrid              |
+| [Research & evaluation of ed tech](https://mixi.nyc/courses/research-seminar)                 |campus              |
 | Special Topic: Philosophy of visual media                                                                              |online              |
 | Special Topic: Learning analytics                                                                                      |online              |
-| [Teaching with social media](https://adelphi-ed-tech.github.io/au-courses/social-media.html)                           |online              |
-| [Web based programming of educational media](https://adelphi-ed-tech.github.io/au-courses/web-programming.html)        |online, campus      |
+| [Teaching with social media](https://mixi.nyc/courses/social-media)                           |online              |
+| [Web based programming of educational media](https://mixi.nyc/courses/web-programming)        |online, campus      |
 | Community, Schools, & Society (undergraduate)                                                                          |campus              |
 | Technology and instruction                                                                                             |campus              |
 | _Teachers College, Columbia University_                                                                                |                    |
@@ -309,7 +309,12 @@ Courses Taught
 
 Integrative Masters Projects & Theses (directed)
 ------------------------------------------------
-{% for work in site.data.theses %}
+{% assign num_theses = site.data.theses.length %}
+_Directed more than {{num_theses}} theses and integrated projects for the MA in Educational Technology since 2014._\
+_Most recent works included here:_
+
+
+{% for work in site.data.theses limit:10 %}
 <div class="row" markdown="0">
   <div class="col-3 text-end"><strong>{{work.date}}</strong></div>
   <div class="col"><p>{{work.authors}}, <em>{{work.title}}</em></p></div>
