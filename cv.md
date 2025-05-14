@@ -309,8 +309,8 @@ Courses Taught
 
 Integrative Masters Projects & Theses (directed)
 ------------------------------------------------
-{% assign num_theses = site.data.theses.length %}
-_Directed more than {{num_theses}} theses and integrated projects for the MA in Educational Technology since 2014._\
+{% assign thesis_count = site.data.theses | size %}
+_Directed more than {{thesis_count}} theses and integrated projects for the MA in Educational Technology since 2014._\
 _Most recent works included here:_
 
 
