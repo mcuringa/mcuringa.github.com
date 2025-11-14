@@ -83,6 +83,8 @@ Adjunct Instructor
 
 Refereed articles & proceedings
 -------------------------------
+de Freitas, E., & Curinga, M. (in press). Exposing cybernetic assumptions in urban demographic models: How racial entropy came to shape school segregation and spatial justice. _Discourse: Studies in the Cultural Politics of Education_.
+
 Uttamchandani, S., Curinga, M., & Drew, J. (2024). Cartographic Syntonicity as a Tool for Equitable Computer Science Education. In Lindgren, R., Asino, T. I., Kyza, E. A., Looi, C. K., Keifert, D. T., & Suárez, E. (Eds.), _Proceedings of the 18th International Conference of the Learning Sciences - ICLS 2024_ (pp. 1327-1330). International Society of the Learning Sciences. <https://doi.org/10.22318/icls2024.796467>
 
 Saravanos, A., & Curinga, M. (2023). Simulating the Software Development Lifecycle: The Waterfall Model. _Applied System Innovation_, _6_(6), 108. <https://doi.org/10.3390/asi6060108>
@@ -101,23 +103,32 @@ Sullivan, I., Garrison, J. R., & Curinga, M. (2011). Wikiotics: the interactive 
 
 Books
 -----
-de Freitas, E., Curinga, M., Roman-Dixon, E., & Webb, T. (Eds.). (2025 - in press). _Learning Under Algorithmic Conditions_. University of Minnesota Press.
+de Freitas, E., Curinga, M., Roman-Dixon, E., & Webb, T. (Eds.). (2026 - in press). _Learning Under Algorithmic Conditions_. University of Minnesota Press.
 
 Book chapters
 -------------
-Curinga, M. (2025 - in press). Learning, Algorithms and Computational Thinking. In E. de Freitas, M. Curinga, E. Roman-Dixon, & T. Webb (Eds.), _Learning Under Algorithmic Conditions_. University of Minnesota Press.
+Curinga, M. (2026 - in press). Learning, Algorithms and Computational Thinking. In E. de Freitas, M. Curinga, E. Roman-Dixon, & T. Webb (Eds.), _Learning Under Algorithmic Conditions_. University of Minnesota Press.
+
+de Freitas, E., & Curinga, M. (in press). Computational thinking and the infant mind: Software studies between empiricism and nativism. In E. de Freitas, _Posthuman social science in computational cultures: Essays on methodology, theory, and practice_. Routledge.
 
 Curinga, M., & Saravanos, A. (2016). [Mobile First Instructional Design](https://www.igi-global.com/book/handbook-research-mobile-learning-contemporary/143639). In D. Mentor (Ed.), _Handbook of Research on Mobile Learning in Contemporary Classrooms_. IGI Global.
 
 Refereed conference papers & presentations
 ------------------------------------------
-Curinga, M. (2025) Learning as Computational Thinking. _The 2025 Annual Meeting of the American Education Research Association_, Denver, CO, April 23-27, 2024.
 
-Curinga, M., & de Freitas E. (2025) Mapping Student Flow Through Fragmented School Buildings. _The 2025 Annual Meeting of the American Education Research Association_, Denver, CO, April 23-27, 2024.
+Curinga, R., Curinga, M., & Hung, A. C. Y. (2026 - accepted) ChatGPT as a multilingual/multicultural tutor for adolescent and adult English learners. _The 2026 Annual Meeting of the American Education Research Association_, Los Angeles, CA, April 8-12, 2026.
 
-de Freitas E., & Curinga, M. (2025) How the concept of racial entropy came to shape ideas about school segregation: A critical analysis of the cybernetic assumptions in school demographic models. _The 2025 Annual Meeting of the American Education Research Association_, Denver, CO, April 23-27, 2024.
+de Freitas, E., & Curinga, M. (2026 - accepted) Using game aesthetics to explore the affective atmosphere of school buildings. _The 2026 Annual Meeting of the American Education Research Association_, Los Angeles, CA, April 8-12, 2026.
 
-Curinga, M., de Freitas, E., Deninno, G., Zhumabaikyzy, A., & Filipek, C. (2025). Visualizing NYC School Colocations. _NYC Open Data Week 2025_, New York, NY, March 16-24, 2024.
+de Freitas, E., & Curinga, M. (2026 - accepted) Exploring control societies through surreal game aesthetics: Adolescents reclaiming school buildings in NYC. _The 9th European Congress of Qualitative Inquiry (ECQI 2026)_, Athens, Greece, January 13-16, 2026.
+
+Curinga, M. (2025) Learning as Computational Thinking. _The 2025 Annual Meeting of the American Education Research Association_, Denver, CO, April 23-27, 2025.
+
+Curinga, M., & de Freitas E. (2025) Mapping Student Flow Through Fragmented School Buildings. _The 2025 Annual Meeting of the American Education Research Association_, Denver, CO, April 23-27, .
+
+de Freitas E., & Curinga, M. (2025) How the concept of racial entropy came to shape ideas about school segregation: A critical analysis of the cybernetic assumptions in school demographic models. _The 2025 Annual Meeting of the American Education Research Association_, Denver, CO, April 23-27, 2025.
+
+Curinga, M., de Freitas, E., Deninno, G., Zhumabaikyzy, A., & Filipek, C. (2025). Visualizing NYC School Colocations. _NYC Open Data Week 2025_, New York, NY, March 16-24, 2025.
 
 Curinga, R., Hung, A. C. Y., & Curinga, M. (2025). ChatGPT Translanguaging for multilingual learners. _The American Association for Applied Linguistics (AAAL) 2025_. Denver, Colorado, March 22-25, 2025.
 
