@@ -19,7 +19,6 @@ order: 20
   <a href="https://matt.curinga.com" title="go to the personal website of matt curinga" class="text-muted">https://matt.curinga.com</a><br>
   <a href="https://mixi.nyc" title="mixi research and practice institute" class="text-muted">https://mixi.nyc</a><br>
   <a href="https://github.com/mcuringa" title="github repos" class="text-muted">https://github.com/mcuringa</a><br>
-  <a href="https://twitter.com/mxc" title="infrequent tweets" class="text-muted">https://twitter.com/mxc</a>
 </div>
 <h1>Curriculum Vitae</h1>
 </header>
@@ -83,7 +82,7 @@ Adjunct Instructor
 
 Refereed articles & proceedings
 -------------------------------
-de Freitas, E., & Curinga, M. (in press). Exposing cybernetic assumptions in urban demographic models: How racial entropy came to shape school segregation and spatial justice. _Discourse: Studies in the Cultural Politics of Education_.
+de Freitas, E., & Curinga, M. (2025). Exposing cybernetic assumptions in urban demographic models: How racial entropy came to shape school segregation and spatial justice. _Discourse: Studies in the Cultural Politics of Education_, 1–15. <https://doi.org/10.1080/01596306.2025.2599737>
 
 Uttamchandani, S., Curinga, M., & Drew, J. (2024). Cartographic Syntonicity as a Tool for Equitable Computer Science Education. In Lindgren, R., Asino, T. I., Kyza, E. A., Looi, C. K., Keifert, D. T., & Suárez, E. (Eds.), _Proceedings of the 18th International Conference of the Learning Sciences - ICLS 2024_ (pp. 1327-1330). International Society of the Learning Sciences. <https://doi.org/10.22318/icls2024.796467>
 
@@ -109,7 +108,7 @@ Book chapters
 -------------
 Curinga, M. (2026 - in press). Learning, Algorithms and Computational Thinking. In E. de Freitas, M. Curinga, E. Roman-Dixon, & T. Webb (Eds.), _Learning Under Algorithmic Conditions_. University of Minnesota Press.
 
-de Freitas, E., & Curinga, M. (in press). Computational thinking and the infant mind: Software studies between empiricism and nativism. In E. de Freitas, _Posthuman social science in computational cultures: Essays on methodology, theory, and practice_. Routledge.
+de Freitas, E., & Curinga, M. (2026). [Computational thinking and the infant mind: Software studies between empiricism and nativism](https://www.taylorfrancis.com/chapters/edit/10.4324/9781003538769-12/computational-thinking-infant-mind-elizabeth-de-freitas-matthew-curinga). In E. de Freitas, _Posthuman social science in computational cultures: Essays on methodology, theory, and practice_. Routledge.
 
 Curinga, M., & Saravanos, A. (2016). [Mobile First Instructional Design](https://www.igi-global.com/book/handbook-research-mobile-learning-contemporary/143639). In D. Mentor (Ed.), _Handbook of Research on Mobile Learning in Contemporary Classrooms_. IGI Global.
 
@@ -120,7 +119,7 @@ Curinga, R., Curinga, M., & Hung, A. C. Y. (2026 - accepted) ChatGPT as a multil
 
 de Freitas, E., & Curinga, M. (2026 - accepted) Using game aesthetics to explore the affective atmosphere of school buildings. _The 2026 Annual Meeting of the American Education Research Association_, Los Angeles, CA, April 8-12, 2026.
 
-de Freitas, E., & Curinga, M. (2026 - accepted) Exploring control societies through surreal game aesthetics: Adolescents reclaiming school buildings in NYC. _The 9th European Congress of Qualitative Inquiry (ECQI 2026)_, Athens, Greece, January 13-16, 2026.
+de Freitas, E., & Curinga, M. (2026) Exploring control societies through surreal game aesthetics: Adolescents reclaiming school buildings in NYC. _The 9th European Congress of Qualitative Inquiry (ECQI 2026)_, Athens, Greece, January 13-16, 2026.
 
 Curinga, M. (2025) Learning as Computational Thinking. _The 2025 Annual Meeting of the American Education Research Association_, Denver, CO, April 23-27, 2025.
 
@@ -211,6 +210,7 @@ Curinga, M. (2001). [panelist] Wireless Stimulants: BREW and Wireless Java. _CTI
 
 White papers, working papers, technical reports, etc
 ------------------------------------------------------
+
 Curinga, M. and Timlaris, L. (2010). Technology and Education Transformation. Technical report prepared for the [Intel Strategy, Research and Assessment Team](http://www.intel.com/EDUCATION/).
 
 Curinga, M. (2010). Mobile Learning. Technical report prepared for the [Intel Strategy, Research and Assessment Team](http://www.intel.com/EDUCATION/).
@@ -219,13 +219,6 @@ Curinga, M. (2010). Education and the Semantic Web. Technical report prepared fo
 
 Curinga, M. (2009). Web 2.0 and Learning: a review of literature. Technical report prepared for the [Intel Strategy, Research and Assessment Team](http://www.intel.com/EDUCATION/).
 
-Works in progress
------------------
-de Freitas, E., & Curinga, M. (under review). How the concept of racial entropy came to shape our ideas about segregation: Exposing the cybernetic assumptions in demographic models.
-
-Curinga, M., & de Freitas, E. (under review). Computational Thinking and the Infant Mind: Towards the New Empiricisms of Software Studies. _Learning, Media and Technology_.
-
-Curinga, R., Raña, R., Curinga, M., & Maryutina, E. (under review). Assessing and placing emergent bilinguals in U.S. schools: Findings from field interviews. _International journal of bilingual education and bilingualism._
 
 </div>
 
