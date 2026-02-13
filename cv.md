@@ -24,6 +24,10 @@ order: 20
 </header>
 
 <style>
+    a {
+        text-decoration: none;
+    }
+
 @media print {
     a {
         color: black !important;
@@ -82,15 +86,15 @@ Adjunct Instructor
 
 Refereed articles & proceedings
 -------------------------------
-de Freitas, E., & Curinga, M. (2025). Exposing cybernetic assumptions in urban demographic models: How racial entropy came to shape school segregation and spatial justice. _Discourse: Studies in the Cultural Politics of Education_, 1–15. <https://doi.org/10.1080/01596306.2025.2599737>
+de Freitas, E., & Curinga, M. (2025). [Exposing cybernetic assumptions in urban demographic models: How racial entropy came to shape school segregation and spatial justice](https://doi.org/10.1080/01596306.2025.2599737). _Discourse: Studies in the Cultural Politics of Education_, 1–15. [[research gate](https://www.researchgate.net/publication/399000843_Exposing_cybernetic_assumptions_in_urban_demographic_models_how_racial_entropy_came_to_shape_school_segregation_and_spatial_justice)]
 
-Uttamchandani, S., Curinga, M., & Drew, J. (2024). Cartographic Syntonicity as a Tool for Equitable Computer Science Education. In Lindgren, R., Asino, T. I., Kyza, E. A., Looi, C. K., Keifert, D. T., & Suárez, E. (Eds.), _Proceedings of the 18th International Conference of the Learning Sciences - ICLS 2024_ (pp. 1327-1330). International Society of the Learning Sciences. <https://doi.org/10.22318/icls2024.796467>
+Uttamchandani, S., Curinga, M., & Drew, J. (2024). [Cartographic Syntonicity as a Tool for Equitable Computer Science Education](https://doi.org/10.22318/icls2024.796467). In Lindgren, R., Asino, T. I., Kyza, E. A., Looi, C. K., Keifert, D. T., & Suárez, E. (Eds.), _Proceedings of the 18th International Conference of the Learning Sciences - ICLS 2024_ (pp. 1327-1330). International Society of the Learning Sciences.
 
-Saravanos, A., & Curinga, M. (2023). Simulating the Software Development Lifecycle: The Waterfall Model. _Applied System Innovation_, _6_(6), 108. <https://doi.org/10.3390/asi6060108>
+Saravanos, A., & Curinga, M. (2023). [Simulating the Software Development Lifecycle: The Waterfall Model](https://doi.org/10.3390/asi6060108). _Applied System Innovation_, _6_(6), 108.
 
-Curinga, M. (2016). The MOOC and the Multitude. _Educational Theory_, _66_(3), 369–387. <http://dx.doi.org/10.1111/edth.12171>
+Curinga, M. (2016). [The MOOC and the Multitude](http://dx.doi.org/10.1111/edth.12171). _Educational Theory_, _66_(3), 369–387.
 
-de Freitas, E., & Curinga, M. (2015). New materialist approaches to the study of language and identity: Assembling the posthuman subject. _Curriculum Inquiry_, _45_(3), 249–265. <http://doi.org/10.1080/03626784.2015.1031059>
+de Freitas, E., & Curinga, M. (2015). [New materialist approaches to the study of language and identity: Assembling the posthuman subject](http://doi.org/10.1080/03626784.2015.1031059). _Curriculum Inquiry_, _45_(3), 249–265.
 
 Curinga, M., & Auchter, K. (2015). [Designing PyTutor: A Social Tutor to Support Computer Science Education Through Collaborative Study](https://www.isls.org/cscl2015/papers/CSCL2015ProceedingsVolume2.pdf). In Lindwall, P. Häkkinen, T. Koschman, P. Tchounikine, & S. Ludvigsen (Eds.), _Exploring the Material Conditions of Learning: The Computer Supported Collaborative Learning (CSCL) Conference 2015_ (Vol. 2, pp. 833–834). Gothenburg, Sweden: _The International Society of the Learning Sciences_.
 
@@ -102,7 +106,7 @@ Sullivan, I., Garrison, J. R., & Curinga, M. (2011). Wikiotics: the interactive 
 
 Books
 -----
-de Freitas, E., Curinga, M., Roman-Dixon, E., & Webb, T. (Eds.). (2026 - in press). _Learning Under Algorithmic Conditions_. University of Minnesota Press.
+de Freitas, E., Curinga, M., Roman-Dixon, E., & Webb, T. (Eds.). (2026 - in press). [_Learning Under Algorithmic Conditions_](https://www.upress.umn.edu/9781517920050/learning-under-algorithmic-conditions/). University of Minnesota Press.
 
 Book chapters
 -------------
