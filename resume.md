@@ -6,8 +6,8 @@ permalink: /resume.html
 id: res
 ---
 
-<h2 class="mt-0">Goal</h2>
-A senior level technical position where I use my experience building and researching software systems to help create technologies that serve the public good.
+<!-- <h2 class="mt-0">Goal</h2>
+A senior level technical position where I use my experience building and researching software systems to help create technologies that serve the public good. -->
 
 Relevant Experience
 -------------------
@@ -84,25 +84,27 @@ Co-founded one of the first companies building software for Java-enabled phones,
 
 <div class="ref" markdown="1">
 
-Selected Papers & Talks
------------------------
+Selected Publications
+---------------------
 <div class="row">
 <div class="col-3 text-end">
-<i class="bi bi-easel2 fs-4"></i>
+<i class="bi bi-book fs-4"></i>
 </div>
 <div class="col align-left" markdown="1">
-**Protocol: A Constructionist game for teaching computing and adapted design in the Maker Lab.** _The 2023 Annual Meeting of the American Education Research Association_, Chicago, IL.
+_[**Learning Under Algorithmic Conditions**](https://www.upress.umn.edu/9781517920050/learning-under-algorithmic-conditions/)_. University of Minnesota Press.
 </div>
 </div>
 
 <div class="row">
 <div class="col-3 text-end">
-<i class="bi bi-easel2 fs-4"></i>
+<i class="bi bi-journal-text fs-4"></i>
 </div>
 <div class="col align-left" markdown="1">
-**Video games for learning in computer science education.** _British Educational Research Association (BERA) Annual Conference 2018_. Northumbria University, Newcastle, England.
+[**Exposing cybernetic assumptions in urban demographic models: How racial entropy came to shape school segregation and spatial justice.**](https://doi.org/10.1080/01596306.2025.2599737) _Discourse: Studies in the Cultural Politics of Education_, 1–15.
 </div>
 </div>
+
+
 
 <div class="row">
 <div class="col-3 text-end">
@@ -131,38 +133,11 @@ Selected Papers & Talks
 </div>
 </div>
 
-<div class="row">
-<div class="col-3 text-end">
-<i class="bi bi-easel2 fs-4"></i>
-</div>
-<div class="col align-left" markdown="1">
-**Networks, design, and solidarity.** _The Twelfth Annual Meeting of the Cultural Studies Association (US)_, Salt Lake City.
-</div>
-</div>
-
-<div class="row">
-<p class="break">&nbsp;</p>
-<div class="col-3 text-end">
-<i class="bi bi-journal-text fs-4"></i>
-</div>
-<div class="col align-left" markdown="1">
-**Wikiotics: the interactive language instruction Wiki.** _Proceedings of the 7th International Symposium on Wikis and Open Collaboration_ (pp. 223–224).
-</div>
-</div>
-</div>
 
 <h2 class="">Awards & Honors</h2>
-<div class="row" markdown="0">
-  <div class="col-3 text-end">
-    <strong>2020</strong>
-  </div>
-  <div class="col">
-    <strong markdown="1">National Science Foundation I-Corps</strong>
-    <div class="text-muted mb-2">Part of team of 3-person "BLAST bilingual learning software" team selected for NSF "start-up" funding of $50,000</div>
-  </div>
-</div>
 
-{% for award in site.data.awards %}
+{% assign awards = site.data.awards | sort: "date" | reverse %}
+{% for award in awards %}
 <div class="row" markdown="0">
   <div class="col-3 text-end">
     <strong>{{award.date}}</strong>

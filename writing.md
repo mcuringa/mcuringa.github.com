@@ -15,6 +15,38 @@ Selected Writing
 <div class="row" markdown="1">
 <div class="col-lg-1"></div>
 <div class="col" markdown="1">
+
+### Learning Under Algorithmic Conditions
+
+<a href="https://www.upress.umn.edu/9781517920050/learning-under-algorithmic-conditions/"><img src="/img/algorithmic-conditions.jpg" alt="Book cover with closeup of abstract fiber art and abstract human figure" class="float-start me-3 mb-3" style="width: 250px;"></a>
+
+Elizabeth de Freitas, **Matthew X. Curinga**, Ezekiel J. Dixon-Román, & P. Taylor Webb (Eds.). (2026). _Learning Under Algorithmic Conditions_. University of Minnesota Press. <https://www.upress.umn.edu/9781517920050/learning-under-algorithmic-conditions/>
+
+**Abstract.** _Exploring the influence of AI technologies on theories of reason, cognition, learning, and education_
+
+Learning Under Algorithmic Conditions presents twenty-seven concise essays that collectively chart the shifting terrain of learning in the age of artificial intelligence. Providing historical and philosophical context, this innovative volume features prominent scholars from the fields of media studies, philosophy, and education research, who shed light on how learning has become newly envisioned, machinic, and more-than-human. The contributors unravel various histories of machine intelligence and elucidate the current impact of machine learning technologies on practices of knowledge production. Teeming with theoretical and practical insights, Learning Under Algorithmic Conditions is an interdisciplinary guide for those working across the humanities and social sciences as well as anyone interested in understanding our changing social, political, and technical infrastructures.
+
+_Contributors:_ Craig Carson, Adelphi U; Felicity Coleman, U of the Arts London; Ed Dieterle; Shayan Doroudi, U of California, Irvine; David Gauthier, Utrecht U; Cathrine Hasse, Aarhus U; Talha Can İşsevenler, CUNY; Goda Klumbytė; Robb Lindgren, U of Illinois Urbana-Champaign; Michael Madiao; Henry Neim Osman; Luciana Parisi, Duke U; Carolyn Pedwell, Lancaster U; Arkady Plotnitsky, Purdue U; Julian Quiros, U of Pennsylvania; Sina Rismanchian; Warren Sack, U of California, Santa Cruz; R. Joshua Scannell, The New School; Gregory J. Seigworth, Millersville U; Rebecca Uliasz, U of Michigan; David Wagner, U of New Brunswick; Ben Williamson, U of Edinburgh.
+
+### Exposing cybernetic assumptions in urban demographic models: How racial entropy came to shape school segregation and spatial justice
+
+De Freitas, E., & **Curinga, M.** (2025). Exposing cybernetic assumptions in urban demographic models: How racial entropy came to shape school segregation and spatial justice. _Discourse: Studies in the Cultural Politics of Education_, 1–15. <https://doi.org/10.1080/01596306.2025.2599737>
+[request on research gate](https://www.researchgate.net/publication/399000843_Exposing_cybernetic_assumptions_in_urban_demographic_models_how_racial_entropy_came_to_shape_school_segregation_and_spatial_justice)
+
+**Abstract.** This paper is focused on the impact of cybernetics on social theories of segregation. We historically trace cybernetic models as they moved from information theory into sociology, where they were used to justify de facto segregation as part of ‘self-organizing’ emergent tendencies in urban environments. Our work is intended to support the fields of spatial justice, Black geographies, and critical quantitative methodologies, by exposing how cybernetic ideas shaped sociological demographic models that racialized urban space. We discuss how the concept of ‘racial entropy’ and other spatial concepts (evenness, isolation, exposure) emerged as part of a stochastic image of racialized population dynamics. Our objective is to expose how cybernetic ideas came to problematically influence our current discourse about school segregation. These cybernetic ideas were part of a paradigm shift in sociological theories of race relations in the 1970s, when information theory generated a new image of urban space, race, and community.
+
+_Keywords:_ Cybernetics; Black geographies; school segregation; QuantCrit; spatial justice; population models
+
+
+### Simulating the Software Development Lifecycle: The Waterfall Model
+
+Saravanos, A., & **Curinga, M. X.** (2023). Simulating the Software Development Lifecycle: The Waterfall Model. _Applied System Innovation_, _6_(6), 108. <https://doi.org/10.3390/asi6060108>
+
+**Abstract.** This study employs a simulation-based approach, adapting the waterfall model, to provide estimates for software project and individual phase completion times. Additionally, it pinpoints potential efficiency issues stemming from suboptimal resource levels. We implement our software development lifecycle simulation using SimPy, a Python discrete-event simulation framework. Our model is executed within the context of a software house on 100 projects of varying sizes examining two scenarios. The first provides insight based on an initial set of resources, which reveals the presence of resource bottlenecks, particularly a shortage of programmers for the implementation phase. The second scenario uses a level of resources that would achieve zero-wait time, identified using a stepwise algorithm. The findings illustrate the advantage of using simulations as a safe and effective way to experiment and plan for software development projects. Such simulations allow those managing software development projects to make accurate, evidence-based projections as to phase and project completion times as well as explore the interplay with resources.
+
+_Keywords:_ software development lifecycle; systems development lifecycle; SDLC; waterfall model; software process simulation modeling; discrete-event simulation; SimPy framework
+
+
 ### The MOOC and the Multitude
 
 **Curinga, M.** (2016). [The MOOC and the Multitude](http://dx.doi.org/10.1111/edth.12171). _Educational Theory_, _66_(3), 369–387. <https://dx.doi.org/10.1111/edth.12171>
@@ -23,7 +55,7 @@ Selected Writing
 **Abstract:** Massive Open Online Courses (MOOCs) take university lectures and other educational materials and make them available for free as online “courses.” Liberal and neoliberal MOOC supporters laud them for opening up education to the world, while incorporating market dynamics to improve quality and drive down costs. Skeptics claim MOOCs are a bald attempt to privatize higher learning, while creating an apartheid educational system with traditional universities for the wealthy and cut-rate online learning for everyone else. This paper draws on the political theory of autonomist marxism, arguing that MOOCs are Capital's defensive reaction to the threats of resistant universities on one side and unmanageable internet-based learning on the other. It then looks at what MOOC design would support education for the multitude; the diverse, networked political body of autonomist marxism.
 {: .justify}
 
-**Keywords:** moocs, open education, software studies, autonomist marxism, higher education, cognitive capitalism, online education
+**Keywords:** moocs; open education; software studies; autonomist marxism; higher education; cognitive capitalism; online education
 
 ### Mobile First Instructional Design
 
