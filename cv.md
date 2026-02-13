@@ -280,28 +280,29 @@ Courses Taught
 
 |------------------------------------------------------------------------------------------------------------------------+--------------------+
 | Course                                                                                                                 |Format(s)           |
-|------------------------------------------------------------------------------------------------------------------------|--------------------|
 |------------------------------------------------------------------------------------------------------------------------+--------------------+
 | _Adelphi University, Dept of Math & Comp Science_                                                                      |                    |
 | Computer programming for non-majors (undergraduate)                                                                    |campus              |
-| [Introduction to computer programming](https://mixi.nyc/courses/intro-to-programming)  |campus              |
+| [Introduction to computer programming](https://mixi.nyc/courses/intro-to-programming)                                  |campus              |
 | First Year Seminar: Maps That Matter: Exploring Inequality and Place with Code (undergraduate)                         |campus              |
+| _Adelphi University, Dept of Communications_                                                                           |                    |
+| New Media (undergraduate)                                                                                              |campus              |
 | _Adelphi University, College of Education & Health Sciences_                                                           |                    |
-| [Digital literacies](https://mixi.nyc/courses/digital-literacies)                             |online              |
-| [Educational information systems and networks](https://mixi.nyc/courses/school-networks)      |online, campus      |
-| [Educators multimedia studio](https://mixi.nyc/courses/multimedia-studio)                     |hybrid, online      |
-| [Foundations of open education](https://mixi.nyc/courses/open-ed)                             |hybrid              |
-| [Learning with video games](https://mixi.nyc/courses/video-games)                             |campus              |
-| [Maker Lab 1: Equity lab](https://mixi.nyc/courses/design-lab)                                |campus              |
+| [Web based programming of educational media](https://mixi.nyc/courses/web-programming)                                 |online, campus      |
+| [Educational information systems and networks](https://mixi.nyc/courses/school-networks)                               |online, campus      |
+| [Maker Lab 1: Design lab](https://mixi.nyc/courses/design-lab)                                                         |campus              |
 | Maker Lab 2: Equity lab                                                                                                |campus, hybrid      |
-| [Maker Lab 3: School lab  ](https://mixi.nyc/courses/maker3/)                                      |campus, hybrid      |
-| [Mobile learning](https://mixi.nyc/courses/mlearning)                                         |hybrid              |
-| [Online learning](https://mixi.nyc/courses/online-ed)                                         |hybrid              |
-| [Research & evaluation of ed tech](https://mixi.nyc/courses/research-seminar)                 |campus              |
+| [Maker Lab 3: School lab  ](https://mixi.nyc/courses/maker3/)                                                          |campus, hybrid      |
+| [Digital literacies](https://mixi.nyc/courses/digital-literacies)                                                      |online              |
+| [Educators multimedia studio](https://mixi.nyc/courses/multimedia-studio)                                              |hybrid, online      |
+| [Foundations of open education](https://mixi.nyc/courses/open-ed)                                                      |hybrid              |
+| [Learning with video games](https://mixi.nyc/courses/video-games)                                                      |campus              |
+| [Mobile learning](https://mixi.nyc/courses/mlearning)                                                                  |hybrid              |
+| [Online learning](https://mixi.nyc/courses/online-ed)                                                                  |hybrid              |
+| [Teaching with social media](https://mixi.nyc/courses/social-media)                                                    |online              |
+| [Research & evaluation of ed tech](https://mixi.nyc/courses/research-seminar)                                          |campus              |
 | Special Topic: Philosophy of visual media                                                                              |online              |
 | Special Topic: Learning analytics                                                                                      |online              |
-| [Teaching with social media](https://mixi.nyc/courses/social-media)                           |online              |
-| [Web based programming of educational media](https://mixi.nyc/courses/web-programming)        |online, campus      |
 | Community, Schools, & Society (undergraduate)                                                                          |campus              |
 | Technology and instruction                                                                                             |campus              |
 | _Teachers College, Columbia University_                                                                                |                    |
